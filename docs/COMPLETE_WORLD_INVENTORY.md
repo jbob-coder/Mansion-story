@@ -132,3 +132,7 @@ The simulation must have a single authoritative clock, entity ID registry, physi
 
 ## Completion policy
 Every system moves through: proposed -> canon/data modeled -> engine implemented -> independently tested -> integrated -> released. A document or JSON object alone never passes the "engine implemented" gate. The current status field in `data/world/system_catalog.json` reports the truth.
+
+## Implementation update: memory library
+
+For **SYS-042, Social memory and rumors**, the **SQLite experience storage, seed character intelligence profiles, fallible recall, corrections, rehearsal and backup are implemented and tested as a standalone Python component**. Actual rumor propagation, perception, NPC choices and gameplay are not implemented, so the whole system's `simulation_runtime` correctly remains `not_implemented` in the structured catalog. See `docs/CHARACTER_MEMORY.md` for exact APIs and limits. This updates one subcomponent, not the world engine or the 68-system completion count.
