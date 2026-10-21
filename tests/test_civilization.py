@@ -43,7 +43,7 @@ class CivilizationChecks(unittest.TestCase):
         self.rejects("Population subtotal mismatch")
 
     def test_human_share_cannot_be_claimed_without_accurate_math(self):
-        self.c["human_predominance"]["observed_sample_human_share_percent"] = 93.2
+        self.c["human_predominance"]["authored_sample_human_share_percent"] = 93.2
         self.rejects("Human demographic percentage mismatch")
 
     def test_majority_must_stay_human_in_documented_sample(self):
