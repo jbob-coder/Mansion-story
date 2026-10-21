@@ -20,6 +20,11 @@ The creator establishes conditions, not a compulsory script for sentient beings.
 11. [Beasts, Beastfolk and Taboos](docs/BEASTS_BEASTFOLK_AND_TABOOS.md) — personhood, creature ecology, discriminatory customs and forbidden practices.
 12. [Shadow History](docs/SHADOW_HISTORY.md) — dated harm, resistance, law and political consequences.
 13. [Moral Causality](docs/MORAL_CAUSAL_MODEL.md) — design contract for a future unscripted ethical/social simulation.
+14. [Human Dominion](docs/HUMAN_DOMINION.md) — human political, demographic and economic ascendancy in the known world.
+15. [Creature Codex](docs/CREATURE_CODEX.md) — sapient species, ordinary wildlife and rare fantasy beasts.
+16. [Civilization and Economy](docs/CIVILIZATION_AND_ECONOMY.md) — populations, religions, guilds, production and trade.
+17. [Complete World Inventory](docs/COMPLETE_WORLD_INVENTORY.md) — 68 specified world systems and truthful implementation states.
+18. [Creator Decisions](docs/CREATOR_DECISIONS.md) — canon priorities, scope and continuity decisions.
 
 ## Data
 `data/world/atlas.json` is the structured initial world registry. `scripts/validate_world.py` validates IDs, references, dates, ability ownership, coordinates and routes with Python's standard library.
