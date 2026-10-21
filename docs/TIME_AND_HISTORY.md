@@ -38,3 +38,8 @@ The sequence is: stable matter permits waters -> stable habitats permit life -> 
 - Birth/death dates constrain character existence; political appointments have effective dates.
 - `current_time` references the chosen starting snapshot only, not a claim a live clock is running.
 - Real-time simulation later requires a deterministic tick order, transaction log, state snapshots and replay tests. These are not yet built.
+
+## Documented darker history
+The Waking Minds era contains Esh Vel's breach of a captive's will (`EVT-020`, Year 18,420). The Night Archivist emerges four years later (`EVT-043`) and demonstrates its own predatory decisions (`EVT-044`, Year 19,100). During the First Crowns, the Gloam Chain organized (`EVT-023`), the Unbound Charter passed (`EVT-024`) and the Crown Hide Levy later caused harm despite legal authority (`EVT-025`). The Hollowford shelter ordinance is separately enacted (`EVT-046`, Year 29,989, Day 2), following the Unbound Watch's founding (`EVT-033`, Year 29,989, Day 1).
+
+These facts have IDs and causes in the atlas. The chronology in [Shadow History](SHADOW_HISTORY.md) is a readable historical view. Neither good nor evil receives automatic victory when the paused Year 30,000 snapshot begins.
