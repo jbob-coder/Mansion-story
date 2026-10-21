@@ -833,6 +833,36 @@
       ],
       "description": "Oxen till soil; horses transport goods; goats graze and may suffer predation.",
       "simulation_status": "not_implemented"
+    },
+    {
+      "id": "ECO-004",
+      "name": "Skyglass alpine predator range",
+      "species_ids": [
+        "SPC-013",
+        "SPC-009"
+      ],
+      "location_ids": [
+        "LOC-028",
+        "LOC-022"
+      ],
+      "description": "Wyverns nest on cliffs and may hunt mounts or small ungulates; patrols and herders adapt routes.",
+      "simulation_status": "not_implemented"
+    },
+    {
+      "id": "ECO-005",
+      "name": "Deep and moor predation",
+      "species_ids": [
+        "SPC-015",
+        "SPC-016",
+        "SPC-010"
+      ],
+      "location_ids": [
+        "LOC-006",
+        "LOC-030",
+        "LOC-020"
+      ],
+      "description": "Basilisks occupy scarce deep galleries; reed-stalkers compete for marsh fish. Non-sapient predators have no default moral alignment.",
+      "simulation_status": "not_implemented"
     }
   ],
   "technologies": [
