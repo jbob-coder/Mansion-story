@@ -12,6 +12,7 @@ Recorded: 2026-10-21. Status: **new decisions consistent with prior creation can
 | DEC-006 | Record every known place, society, clock, route and historical change using IDs and chronology | Local survey frame remains local; unknown beyond chart stays unknown |
 | DEC-007 | Represent civilization and species coverage through estimate-aware datasets | Authored census estimates cannot masquerade as simulation observations |
 | DEC-008 | Maintain an explicit living list of every system needed for an actual playable universe | No pretending documentation equals executable AI or Godot/game engine content |
+| DEC-009 | Every character has persistent personal experiences with intelligence-dependent recall | Memories survive restarts, corrections never erase evidence, and intelligence does not give omniscient knowledge or determine morality |
 
 ## Reversible choices
 Specific grain yields, settlement populations, laws, estimates, individual names, map anchors and event dates are amendable **only with explicit corrections and provenance**. User's core decisions (human predominance, moral complexity, creation-to-medieval history) are higher priority than my invented supporting details.
