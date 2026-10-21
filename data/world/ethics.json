@@ -37,7 +37,7 @@
       "id": "LAW-004",
       "title": "Hollowford Open Shelter",
       "jurisdiction_id": "SET-001",
-      "enacted_event_id": "EVT-033",
+      "enacted_event_id": "EVT-046",
       "enacted_year": 29989,
       "rule": "Nonviolent fugitives may request temporary shelter without surrendering ancestral identity.",
       "enforcement": "locally_supported",
@@ -77,7 +77,7 @@
       "id": "TAB-003",
       "name": "Sharing noble meals with Hornborn",
       "held_by": [
-        "POL-001"
+        "ORG-005"
       ],
       "category": "discriminatory_custom",
       "evidence_event_ids": [
