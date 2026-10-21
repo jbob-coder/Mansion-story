@@ -41,3 +41,7 @@ A nonsapient wolf taking livestock is an ecological and economic harm, **not mor
 `data/world/civilization.json` contains authored **estimates** with measurement confidence, **not** observed simulation outputs. Never equate a population estimate with a count of registered NPC instances; only named/instantiated entities have world IDs. `data/world/system_catalog.json` distinguishes worldbuilding from executable simulation and records which underlying systems still need implementation.
 
 New IDs across data files—including `DOM`, `DEM`, `RES`, `IND`, `TRD`, `CUL`, `FTH`, `SOC`, `JOB`, `ECO`, `TEC`, `SYS`, and `PHASE`—must never collide. Human preponderance is a **world premise for the known inhabited sphere**; social prominence does not automatically imply biological or moral superiority.
+
+## Durable character memories are not objective canon
+
+Each actor's personal recollections are stored in a save-scoped SQLite archive using `engine/character_memory.py`. Knowledge has an individual actor ID, source type, original and learning timestamps, confidence, and optional world-event references. A well-remembered lie is still a belief. Dated corrections append new records; originals remain queryable. Intelligence modifies recall strength and budget without imposing a personal morality. A game implementation must enforce perception before creating a memory. Currently only storage and retrieval are implemented: no live NPC simulation automatically feeds it.

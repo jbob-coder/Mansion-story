@@ -38,3 +38,7 @@ This repository is the historical/worldbuilding authority for Mansion Story only
 
 ## Civilizational expansion entrypoints
 Read `docs/HUMAN_DOMINION.md`, `docs/CREATURE_CODEX.md`, `docs/CIVILIZATION_AND_ECONOMY.md` and `docs/COMPLETE_WORLD_INVENTORY.md`. The machine-readable registries now include `data/world/civilization.json` (known-world demographic estimates, settlements and economic capacities) and `data/world/system_catalog.json` (68 RPG/simulation systems; documented does **not** mean implemented). Run `python scripts/validate_civilization.py` and `python -m unittest discover -s tests -v` after touching data or validation logic. New global IDs must be unique **across all registries**.
+
+## Durable personal memories
+
+Authoring and runtime now differ in an important way: `data/world/atlas.json` holds **world facts**, while the SQLite save from `engine/character_memory.py` holds each **character's imperfect beliefs**. The cognition seed `data/world/character_cognition.json` includes **all 24 presently named character actors**, including a wolf and Veil consciousness. It never forces them to know the whole timeline. See `docs/CHARACTER_MEMORY.md`. Verify the stat profiles using `python scripts/bootstrap_character_memory.py --validate`, then run the test suite. The historical-only Esh Vel is not granted fresh posthumous experiences.

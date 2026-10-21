@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "world_id": "WORLD-001",
+  "clock_snapshot": {
+    "year": 30000,
+    "day_of_year": 1,
+    "minute_of_day": 360,
+    "paused": true,
+    "description": "Authored starting snapshot, not running simulation"
+  },
+  "intelligence_scale": {
+    "minimum": 0,
+    "maximum": 100,
+    "interpretation": "Game cognitive stat: encoding, retention and recall budget. Not value, rights, morality, magic or genetic destiny.",
+    "stable_seed": "Authored defaults; live changes are logged in per-save SQLite stat_changes."
+  },
+  "profiles": [
+    {
+      "actor_id": "NPC-001",
+      "name": "Queen Maera Vey",
+      "kind": "person",
+      "intelligence": 79,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Crownspire.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-002",
+      "name": "Ilyan Rook",
+      "kind": "person",
+      "intelligence": 67,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Bellward Manor Grounds.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-003",
+      "name": "Sela Thorn",
+      "kind": "person",
+      "intelligence": 74,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Hollowford.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-004",
+      "name": "Harven Quill",
+      "kind": "person",
+      "intelligence": 82,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Crownspire.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-005",
+      "name": "Tessa Flint",
+      "kind": "person",
+      "intelligence": 63,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Hollowford.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-006",
+      "name": "Neris Vale",
+      "kind": "person",
+      "intelligence": 88,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Hollowford.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-007",
+      "name": "Esh Vel",
+      "kind": "person",
+      "intelligence": 91,
+      "alive": false,
+      "bootstrap_background": "Personal identity, role and familiar home near Old Cairn.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "ENT-001",
+      "name": "The Night Archivist",
+      "kind": "veiled_consciousness",
+      "intelligence": 98,
+      "alive": true,
+      "bootstrap_background": "Echo traces within the Veil; other minds cannot be fully controlled",
+      "bootstrap_kind": "magical"
+    },
+    {
+      "actor_id": "NPC-008",
+      "name": "Varek Sorn",
+      "kind": "person",
+      "intelligence": 77,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Thornlock Market Ruins.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-009",
+      "name": "Rauka Stonehorn",
+      "kind": "person",
+      "intelligence": 73,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Stonehorn Camp.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-010",
+      "name": "Ashmaw",
+      "kind": "animal",
+      "intelligence": 29,
+      "alive": true,
+      "bootstrap_background": "Habitat and familiar movement patterns around Wolfsorrow Hollow",
+      "bootstrap_kind": "instinctive"
+    },
+    {
+      "actor_id": "NPC-011",
+      "name": "Mereth Vale",
+      "kind": "person",
+      "intelligence": 89,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Old Cairn.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-012",
+      "name": "Yorren Pike",
+      "kind": "person",
+      "intelligence": 52,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Thornlock Market Ruins.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-013",
+      "name": "Oren Halbrecht",
+      "kind": "person",
+      "intelligence": 71,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Dawnridge.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-014",
+      "name": "Elira Moss",
+      "kind": "person",
+      "intelligence": 78,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Grainmere.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-015",
+      "name": "Tel Var",
+      "kind": "person",
+      "intelligence": 86,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Brackenhold.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-016",
+      "name": "Iri Reedwalker",
+      "kind": "person",
+      "intelligence": 80,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Reedfen.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-017",
+      "name": "Sister Naeva",
+      "kind": "person",
+      "intelligence": 64,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Low Lantern Shrine.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-018",
+      "name": "Fenn Vellar",
+      "kind": "person",
+      "intelligence": 95,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Crownspire East Quarter.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-019",
+      "name": "Mara Greychaff",
+      "kind": "person",
+      "intelligence": 60,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Grainmere.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-020",
+      "name": "Torvin Carrow",
+      "kind": "person",
+      "intelligence": 72,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Stonebridge.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-021",
+      "name": "Jessa Flintvale",
+      "kind": "person",
+      "intelligence": 66,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Copperfall Smithy.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-022",
+      "name": "Vella Stonehorn",
+      "kind": "person",
+      "intelligence": 69,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Stonehorn Camp.",
+      "bootstrap_kind": "semantic"
+    },
+    {
+      "actor_id": "NPC-023",
+      "name": "Bren Lowwater",
+      "kind": "person",
+      "intelligence": 58,
+      "alive": true,
+      "bootstrap_background": "Personal identity, role and familiar home near Hollowford.",
+      "bootstrap_kind": "semantic"
+    }
+  ],
+  "policy": {
+    "all_registered_characters": true,
+    "future_characters": "Runtime register(actor_id, intelligence, kind) immediately when instantiated.",
+    "deceased": "Register as archived/inactive; never fabricate new lived experiences after death.",
+    "world_truth": "No characters automatically know every atlas event.",
+    "memory_recording": "Only perceived, learned, inferred, rumored, instinctual or explicitly seeded background records become character memories.",
+    "archive": "Append-only SQLite experiences in save file; recall/accessibility may decay but experiences are not auto-deleted."
+  }
+}

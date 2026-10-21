@@ -1,0 +1,14 @@
+# Save-scoped character memories and temporary game state
+saves/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+
+# Local test and Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
