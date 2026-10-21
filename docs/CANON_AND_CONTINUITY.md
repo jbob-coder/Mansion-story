@@ -36,3 +36,8 @@ The creator chooses initial laws, priors and starting records; **no authored plo
 The canon now contains a second evidence-oriented registry: `data/world/ethics.json`. Each `LAW` has jurisdiction and enacted event; each `TAB` has a cultural holder, classification and event evidence; each `CLM` is a **claim**, not a fact injected into a species; each `CASE` records an action and attributed assessment. The validator checks cross-file IDs so a false rumor cannot become an objective species trait by a simple copy-paste mistake.
 
 A nonsapient wolf taking livestock is an ecological and economic harm, **not moral criminality**. Coercive magical captivity is an informed choice causing preventable injury and loss of autonomy. An important law may be unjust, and a social taboo may be discriminatory; reputation and institutional consequences are derived from agent and witness perceptions, not a global moral-alignment scalar.
+
+## Census provenance and archived world-system states
+`data/world/civilization.json` contains authored **estimates** with measurement confidence, **not** observed simulation outputs. Never equate a population estimate with a count of registered NPC instances; only named/instantiated entities have world IDs. `data/world/system_catalog.json` distinguishes worldbuilding from executable simulation and records which underlying systems still need implementation.
+
+New IDs across data files—including `DOM`, `DEM`, `RES`, `IND`, `TRD`, `CUL`, `FTH`, `SOC`, `JOB`, `ECO`, `TEC`, `SYS`, and `PHASE`—must never collide. Human preponderance is a **world premise for the known inhabited sphere**; social prominence does not automatically imply biological or moral superiority.
