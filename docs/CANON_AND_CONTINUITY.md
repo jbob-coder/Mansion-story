@@ -31,3 +31,8 @@ If a later design revision changes founding time or coordinates, preserve the pr
 
 ## Agency contract
 The creator chooses initial laws, priors and starting records; **no authored plot can force an NPC's future choice**. A live simulation must separately implement goals, needs, perception limits, planning, skills, social negotiations, material transactions, navigation, construction and durable event journals. These are future engine requirements, not currently implemented features.
+
+## Subjective taboo is not objective evil
+The canon now contains a second evidence-oriented registry: `data/world/ethics.json`. Each `LAW` has jurisdiction and enacted event; each `TAB` has a cultural holder, classification and event evidence; each `CLM` is a **claim**, not a fact injected into a species; each `CASE` records an action and attributed assessment. The validator checks cross-file IDs so a false rumor cannot become an objective species trait by a simple copy-paste mistake.
+
+A nonsapient wolf taking livestock is an ecological and economic harm, **not moral criminality**. Coercive magical captivity is an informed choice causing preventable injury and loss of autonomy. An important law may be unjust, and a social taboo may be discriminatory; reputation and institutional consequences are derived from agent and witness perceptions, not a global moral-alignment scalar.
