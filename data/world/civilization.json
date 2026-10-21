@@ -21,9 +21,9 @@
       "trade_networks"
     ],
     "qualifier": "Global uncharted lands have no measured census; predominance is a present known-world premise, not a proof that every region is majority human.",
-    "observed_sample_total": 80850,
-    "observed_sample_humans": 64520,
-    "observed_sample_human_share_percent": 79.8,
+    "authored_sample_total": 80850,
+    "authored_sample_humans": 64520,
+    "authored_sample_human_share_percent": 79.8,
     "provenance": "authored_estimate",
     "ethical_constraint": "Human dominance grants no intrinsic moral status, divine right, biological superiority or guaranteed future rule."
   },
