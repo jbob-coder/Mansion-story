@@ -841,6 +841,16 @@
           "event_id": "EVT-032"
         }
       ]
+    },
+    {
+      "id": "ORG-005",
+      "name": "Crownspire Old Houses Council",
+      "type": "organization",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-001",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29570,
+      "description": "A coalition of influential hereditary houses; not the whole kingdom."
     }
   ],
   "routes": [
@@ -1323,6 +1333,24 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-047",
+      "when": {
+        "year": 29570,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Crownspire noble houses establish an inter-house council with political influence.",
+      "kind": "founding",
+      "participants": [
+        "ORG-005"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-006"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-016",
       "when": {
         "year": 29600,
@@ -1691,6 +1719,25 @@
       "location_id": "LOC-003",
       "cause_event_ids": [
         "EVT-030"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-046",
+      "when": {
+        "year": 29989,
+        "day_of_year": 2,
+        "minute_of_day": 0
+      },
+      "summary": "Hollowford council formally recognizes temporary shelter rights for nonviolent fugitives.",
+      "kind": "legislation",
+      "participants": [
+        "SET-001"
+      ],
+      "location_id": "LOC-003",
+      "cause_event_ids": [
+        "EVT-030",
+        "EVT-017"
       ],
       "provenance": "authored_fact"
     },
@@ -2190,6 +2237,16 @@
       "predicate": "opposes",
       "to_id": "ORG-002",
       "since_year": 29989,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-026",
+      "from_id": "ORG-005",
+      "to_id": "POL-001",
+      "predicate": "influences",
+      "since_year": 29570,
       "until_year": null,
       "status": "established",
       "provenance": "authored_fact"
