@@ -70,7 +70,7 @@ class CivilizationChecks(unittest.TestCase):
 
     def test_trade_path_must_arrive(self):
         self.c["trade"][0]["route_ids"] = ["RTE-019"]
-        self.rejects("disconnected segment")
+        self.rejects("does not end at destination")
 
     def test_bad_species_habitat_rejected(self):
         self.a["species"][-1]["habitats"] = ["LOC-999"]
