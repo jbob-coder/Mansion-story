@@ -3863,6 +3863,49 @@
         "LOC-012"
       ],
       "classification": "Rare altered nonsapient predatory fauna associated with Echo disturbances; not ethically guilty"
+    },
+    {
+      "id": "SPC-013",
+      "name": "Cloud wyvern",
+      "sapient": false,
+      "core_ability_id": "ABI-008",
+      "habitats": [
+        "LOC-028",
+        "LOC-022"
+      ],
+      "classification": "Rare flying predator; hunting and territorial behavior; wing energy and nesting constraints"
+    },
+    {
+      "id": "SPC-014",
+      "name": "Glassback boar",
+      "sapient": false,
+      "core_ability_id": "ABI-002",
+      "habitats": [
+        "LOC-005",
+        "LOC-015"
+      ],
+      "classification": "Armored woodland omnivore; aggressive if cornered, ecological seed disperser"
+    },
+    {
+      "id": "SPC-015",
+      "name": "Copperfall basilisk",
+      "sapient": false,
+      "core_ability_id": "ABI-002",
+      "habitats": [
+        "LOC-006",
+        "LOC-030"
+      ],
+      "classification": "Rare subterranean reptilian predator; localized stone-hardening defense costs heat and energy"
+    },
+    {
+      "id": "SPC-016",
+      "name": "Reed-stalker",
+      "sapient": false,
+      "core_ability_id": "ABI-003",
+      "habitats": [
+        "LOC-020"
+      ],
+      "classification": "Wetland amphibian ambush predator; sensitive to drought and food-web disturbance"
     }
   ]
 }
