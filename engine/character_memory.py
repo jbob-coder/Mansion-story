@@ -127,6 +127,24 @@ class MemoryStore:
                 at_minute INTEGER NOT NULL
             );
             CREATE INDEX IF NOT EXISTS rehearse_actor ON rehearsal(actor_id, memory_id, at_minute);
+            CREATE TRIGGER IF NOT EXISTS experience_no_update
+              BEFORE UPDATE ON experience
+              BEGIN SELECT RAISE(ABORT, 'experiences are immutable'); END;
+            CREATE TRIGGER IF NOT EXISTS experience_no_delete
+              BEFORE DELETE ON experience
+              BEGIN SELECT RAISE(ABORT, 'experiences are permanent'); END;
+            CREATE TRIGGER IF NOT EXISTS rehearsal_no_update
+              BEFORE UPDATE ON rehearsal
+              BEGIN SELECT RAISE(ABORT, 'rehearsals are immutable'); END;
+            CREATE TRIGGER IF NOT EXISTS rehearsal_no_delete
+              BEFORE DELETE ON rehearsal
+              BEGIN SELECT RAISE(ABORT, 'rehearsals are permanent'); END;
+            CREATE TRIGGER IF NOT EXISTS stats_no_update
+              BEFORE UPDATE ON stat_changes
+              BEGIN SELECT RAISE(ABORT, 'intelligence change history is immutable'); END;
+            CREATE TRIGGER IF NOT EXISTS stats_no_delete
+              BEFORE DELETE ON stat_changes
+              BEGIN SELECT RAISE(ABORT, 'intelligence change history is permanent'); END;
         """)
         self.db.commit()
 
@@ -166,6 +184,21 @@ class MemoryStore:
             raise KeyError(f"Unknown character {actor_id}")
         return dict(row)
 
+    def intelligence_at(self, actor_id: str, when: WorldTime) -> int:
+        """Use stat-change history for time-correct historical recall."""
+        actor = self.actor(actor_id)
+        past = self.db.execute(
+            "SELECT new_intelligence FROM stat_changes WHERE actor_id=? AND at_minute<=?"
+            " ORDER BY at_minute DESC, change_id DESC LIMIT 1", (actor_id, when.minute)
+        ).fetchone()
+        if past is not None:
+            return int(past["new_intelligence"])
+        first = self.db.execute(
+            "SELECT old_intelligence FROM stat_changes WHERE actor_id=?"
+            " ORDER BY at_minute ASC, change_id ASC LIMIT 1", (actor_id,)
+        ).fetchone()
+        return int(first["old_intelligence"] if first is not None else actor["intelligence"])
+
     def set_intelligence(self, actor_id: str, intelligence: int, when: WorldTime,
                          reason: str) -> None:
         """Change current intelligence with append-only evidence of the change."""
@@ -173,6 +206,13 @@ class MemoryStore:
         if not isinstance(reason, str) or not reason.strip():
             raise ValueError("A stat change requires a reason")
         old = self.actor(actor_id)
+        if not old["alive"]:
+            raise ValueError("Deceased character cannot gain new intelligence")
+        last_observed = self.db.execute(
+            "SELECT MAX(learned_minute) AS t FROM experience WHERE actor_id=?", (actor_id,)
+        ).fetchone()["t"]
+        if last_observed is not None and when.minute < last_observed:
+            raise ValueError("Stat change cannot be backdated before learned experiences")
         last = self.db.execute(
             "SELECT MAX(at_minute) AS t FROM stat_changes WHERE actor_id=?", (actor_id,)
         ).fetchone()["t"]
@@ -221,8 +261,8 @@ class MemoryStore:
             occurred_at = learned_at
         if not isinstance(occurred_at, WorldTime) or occurred_at > learned_at:
             raise ValueError("The occurrence cannot follow the learning moment")
-        if person["alive"] == 0 and source_type != "background":
-            raise ValueError("Deceased actor cannot acquire fresh lived memories")
+        if person["alive"] == 0:
+            raise ValueError("Deceased actor cannot acquire new lived or background memories")
         for name, value in (("source_actor_id", source_actor_id),
                             ("world_event_id", world_event_id), ("location_id", location_id)):
             if value is not None and (not isinstance(value, str) or not value.strip()):
@@ -245,7 +285,7 @@ class MemoryStore:
                 raise ValueError("A correction can only supersede the actor's own memory")
             if old["learned_minute"] > learned_at.minute:
                 raise ValueError("Correction predates the earlier memory")
-        encoding = self.encode(person["intelligence"], salience, emotion)
+        encoding = self.encode(self.intelligence_at(actor_id, learned_at), salience, emotion)
         with self.db:
             cur = self.db.execute("""
                 INSERT INTO experience(actor_id,learned_minute,occurred_minute,kind,
@@ -260,6 +300,8 @@ class MemoryStore:
 
     def rehearse(self, actor_id: str, memory_id: int, at: WorldTime) -> None:
         """Record retrieval/practice as a new immutable rehearsal entry."""
+        if not self.actor(actor_id)["alive"]:
+            raise ValueError("Deceased character cannot rehearse memories")
         memory = self.db.execute(
             "SELECT learned_minute FROM experience WHERE actor_id=? AND memory_id=?",
             (actor_id, memory_id)
@@ -304,12 +346,13 @@ class MemoryStore:
         Every remembered event remains in the permanent archive even if it fails
         this fallible recall threshold.
         """
-        person = self.actor(actor_id)
+        self.actor(actor_id)
+        intelligence = self.intelligence_at(actor_id, as_of)
         minimum_strength = _valid_unit("minimum_strength", minimum_strength)
         if not isinstance(query, str):
             raise ValueError("Query must be text")
         if limit is None:
-            limit = self.working_slots(person["intelligence"])
+            limit = self.working_slots(intelligence)
         if type(limit) is not int or not 1 <= limit <= 1000:
             raise ValueError("limit must be an integer from 1 to 1000")
         tokens = _tokens(query)
@@ -336,7 +379,7 @@ class MemoryStore:
             if tokens and not tokens.issubset(textset):
                 continue
             salience, emotion = row["salience"], row["emotion"]
-            half_life_days = (30.0 + 4.0 * person["intelligence"]) * (
+            half_life_days = (30.0 + 4.0 * intelligence) * (
                 1.0 + 8.0 * salience + 4.0 * emotion
             )
             anchor = max(row["learned_minute"], row["last_rehearsal"] or row["learned_minute"])
