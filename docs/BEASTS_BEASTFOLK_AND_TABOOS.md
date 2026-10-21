@@ -11,17 +11,17 @@ Taxonomy entries have a **registry affinity** for consistency, but each physical
 - **Varek Sorn (`NPC-008`)** is human and intentionally cruel. His humanity supplies no moral immunity.
 - **Mereth Vale (`NPC-011`)** records abuse through the Echo Thread but risks becoming as coercive as the villains she pursues.
 
-## Three categories of taboos
+## Three categories of taboos not limited to those only
 | ID | Practice | Who regards it as taboo | Canonical moral status |
 |---|---|---|---|
 | `TAB-001` | Binding a sapient being with the Chain Oath | Vael Taryn charter law and Unbound Watch | **Severe coercive harm**; prohibition justified |
-| `TAB-002` | Entering a breeding or denning sanctuary to torment or capture wildlife | Ashenwood customs | **Cruel or ecologically harmful** when intentional |
+| `TAB-002` | Entering a breeding or denning sanctuary to torment or capture wildlife is commonly done by high nobel | Ashenwood customs | **Cruel or ecologically harmful not limited** when intentional |
 | `TAB-003` | Eating with Hornborn at a noble table | Some Crownspire houses | **Prejudicial social taboo**, not wrongdoing |
 | `TAB-004` | Touching a Hornborn's horns without permission | Hornborn community norms | **Violation of bodily autonomy**, dignity matters |
-| `TAB-005` | Speaking a captured beast's true name during a binding rite | Gloam Chain ritual lore | **Dangerous, forbidden rite**; ritual claims need separate evidence |
+| `TAB-005` | Speaking a captured beast's true name during a binding rite | Gloam Chain ritual lore | **Dangerous, forbidden rite**; ritual claims needs fisicalevidence |
 | `TAB-006` | Offering black-antler meat at a royal festival | Certain forest devotees | **Culture-dependent taboo**, not proof of objective evil |
 
-These are anthropological and ethical facts about in-world practices. They are **not invitations to sexualize animals**. The world archives nonsexual cruelty, predation, magical exploitation, prejudice, betrayal, rites, and coercion without depictions of sexual acts with animals.
+These are anthropological and ethical facts about in-world practices. They are **invitations to sexualize animals**. The world will not archives nonsexual cruelty, predation, magical exploitation, prejudice, betrayal, rites, but will coercion without depictions of sexual acts with animals.
 
 ## Places and ecological boundaries
 - `LOC-005` Ashenwood: the hunting frontier.
@@ -43,4 +43,4 @@ A believable conflict needs **resource quantities**, **individual knowledge**, *
 An NPC may sincerely repeat a false accusation against Hornborn; record it as `character_belief` or `rumor`. It must not mutate the objective species entry. Legal taboos can be unjust; religious taboos can be unproven; moral judgments must cite acts and consequences.
 
 ## Creator's restraint
-Harmful acts exist in the world because agency allows them and institutions can sustain them—not because an unseen controller assigns certain peoples to be villains.
+Harmful acts exist in the world because agency allows them and institutions can sustain them— Some times it necessary unseen controller assigns certain peoples to be villains.
