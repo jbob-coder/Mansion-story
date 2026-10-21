@@ -1,0 +1,720 @@
+{
+  "schema_version": 1,
+  "world_id": "WORLD-001",
+  "catalog_status": "complete_initial_systems_inventory_not_complete_game",
+  "systems": [
+    {
+      "id": "SYS-001",
+      "category": "cosmology",
+      "name": "Layers and cosmology",
+      "description": "Foundational layers, localized physical frames and nonlocal Veil",
+      "source_ref": "atlas.layers",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-002",
+      "category": "cosmology",
+      "name": "Planetary extent",
+      "description": "Unmapped continents, geodesy and projection transforms",
+      "source_ref": "docs/SPATIAL_SYSTEM.md",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-003",
+      "category": "cosmology",
+      "name": "Calendars and seasons",
+      "description": "360-day calendar, seasons, annual cycles",
+      "source_ref": "atlas.calendar",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-004",
+      "category": "cosmology",
+      "name": "Weather and disasters",
+      "description": "Drought, flood, fire, fog, storms and damaged infrastructure",
+      "source_ref": "atlas.locations",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-005",
+      "category": "cosmology",
+      "name": "Day and night",
+      "description": "Lighting, visibility, sleep and activity time",
+      "source_ref": "atlas.clock",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-006",
+      "category": "cosmology",
+      "name": "Dimensional traversal",
+      "description": "Costed portal edges, no cross-dimension Euclidean length",
+      "source_ref": "atlas.layers",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-007",
+      "category": "ecology",
+      "name": "Sapient species",
+      "description": "Humans, Hornborn, Deepkin, Reedfolk and personhood",
+      "source_ref": "atlas.species",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-008",
+      "category": "ecology",
+      "name": "Beast species",
+      "description": "Herd animals, wolves, deer, birds, hounds, insects",
+      "source_ref": "atlas.species",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-009",
+      "category": "ecology",
+      "name": "Animal populations",
+      "description": "Individual health, breeding, migration and survival",
+      "source_ref": "civilization.ecosystems",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-010",
+      "category": "ecology",
+      "name": "Food webs",
+      "description": "Predation, graze, decay, overhunting and trophic balance",
+      "source_ref": "civilization.ecosystems",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-011",
+      "category": "ecology",
+      "name": "Forests and regrowth",
+      "description": "Living biomass, timber harvest, seasonal regrowth",
+      "source_ref": "civilization.resources",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-012",
+      "category": "ecology",
+      "name": "Agriculture and livestock",
+      "description": "Soil, crop cycles, care, feed and labor",
+      "source_ref": "civilization.industries",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-013",
+      "category": "ecology",
+      "name": "Water resources",
+      "description": "River flow, water safety, irrigation and drought",
+      "source_ref": "civilization.resources",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-014",
+      "category": "ecology",
+      "name": "Mining and quarrying",
+      "description": "Ore, accessible deposits, extraction damage and collapse",
+      "source_ref": "civilization.industries",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-015",
+      "category": "ecology",
+      "name": "Disease and healing",
+      "description": "Injuries, outbreaks, treatment, recovery, death",
+      "source_ref": "civilization.occupations",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-016",
+      "category": "civilization",
+      "name": "Human demographic predominance",
+      "description": "Human majority and institutional reach in known inhabited sphere",
+      "source_ref": "civilization.human_predominance",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-017",
+      "category": "civilization",
+      "name": "Population records",
+      "description": "Regional demographic estimates, birth and migration",
+      "source_ref": "civilization.demographics",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-018",
+      "category": "civilization",
+      "name": "Settlement growth",
+      "description": "Building stock, food surplus, hygiene and social specialization",
+      "source_ref": "atlas.entities",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-019",
+      "category": "civilization",
+      "name": "Buildings and interiors",
+      "description": "Durability, rooms, furniture, building transforms and demolition",
+      "source_ref": "atlas.entities",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-020",
+      "category": "civilization",
+      "name": "Land and borders",
+      "description": "Territory polygons, tenure, disputed land and tax jurisdictions",
+      "source_ref": "atlas.entities",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-021",
+      "category": "civilization",
+      "name": "Households and kinship",
+      "description": "Family, marriage rules, inheritance, care and disownment",
+      "source_ref": "civilization.cultures",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-022",
+      "category": "civilization",
+      "name": "Culture and language",
+      "description": "Customs, dialects, art, etiquette, translation and identity",
+      "source_ref": "civilization.cultures",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-023",
+      "category": "civilization",
+      "name": "Education and scholarship",
+      "description": "Apprentices, archives, literacy, investigation and teaching",
+      "source_ref": "civilization.technologies",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-024",
+      "category": "civilization",
+      "name": "Religions and philosophy",
+      "description": "Beliefs, shrines, rituals and rival cosmologies",
+      "source_ref": "civilization.faiths",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-025",
+      "category": "civilization",
+      "name": "Status and social roles",
+      "description": "Nobility, artisans, laborers, displaced persons and rights",
+      "source_ref": "civilization.social_roles",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-026",
+      "category": "civilization",
+      "name": "Government institutions",
+      "description": "Monarchy, elected assemblies, guilds and councils",
+      "source_ref": "atlas.relations",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-027",
+      "category": "civilization",
+      "name": "Diplomacy and alliances",
+      "description": "Autonomy, peace, sanctions, treaties and shifting loyalties",
+      "source_ref": "atlas.relations",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-028",
+      "category": "civilization",
+      "name": "Law and ethics",
+      "description": "Legality distinct from morality; cultural taboo and remedy",
+      "source_ref": "ethics.laws",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-029",
+      "category": "civilization",
+      "name": "Crime and investigation",
+      "description": "Coercion, fraud, theft, rescue, witness evidence, prosecution",
+      "source_ref": "ethics.cases",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-030",
+      "category": "civilization",
+      "name": "War and defense",
+      "description": "Equipment, troop logistics, injuries, sieges and allegiance",
+      "source_ref": "atlas.entities",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-031",
+      "category": "economy",
+      "name": "Resources and conservation",
+      "description": "Materials with units, stock, quality and regeneration",
+      "source_ref": "civilization.resources",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-032",
+      "category": "economy",
+      "name": "Production and work",
+      "description": "Tasks, tools, inputs, labor duration and output",
+      "source_ref": "civilization.industries",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-033",
+      "category": "economy",
+      "name": "Crafting",
+      "description": "Transformation recipes, staged production, repair and waste",
+      "source_ref": "civilization.technologies",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-034",
+      "category": "economy",
+      "name": "Markets and pricing",
+      "description": "Demand, scarcity, bargaining, quality and fraud",
+      "source_ref": "civilization.trade",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-035",
+      "category": "economy",
+      "name": "Trade and caravans",
+      "description": "Routes, capacity, escorts, spoilage and risk",
+      "source_ref": "civilization.trade",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-036",
+      "category": "economy",
+      "name": "Currency and debt",
+      "description": "Coinage, loans, taxation, unpaid wages and defaults",
+      "source_ref": "civilization.trade",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-037",
+      "category": "economy",
+      "name": "Storage and consumption",
+      "description": "Grain silos, daily use, durability and spoilage",
+      "source_ref": "civilization.industries",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-038",
+      "category": "economy",
+      "name": "Transportation and logistics",
+      "description": "Road conditions, freight, ford, flood and travel modes",
+      "source_ref": "atlas.routes",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-039",
+      "category": "agents",
+      "name": "Agency and decisions",
+      "description": "Needs, memories, drives, options and bounded choice",
+      "source_ref": "docs/MORAL_CAUSAL_MODEL.md",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-040",
+      "category": "agents",
+      "name": "Skills and professions",
+      "description": "Practice, competence, fatigue and changing livelihoods",
+      "source_ref": "civilization.occupations",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-041",
+      "category": "agents",
+      "name": "Needs and welfare",
+      "description": "Hunger, rest, safety, health, kin and belonging",
+      "source_ref": "docs/MORAL_CAUSAL_MODEL.md",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-042",
+      "category": "agents",
+      "name": "Social memory and rumors",
+      "description": "Incomplete knowledge, false accusations, witness spread",
+      "source_ref": "ethics.claims",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-043",
+      "category": "agents",
+      "name": "Relationships and reputation",
+      "description": "Friendship, resentment, trust, rivalry and interdependence",
+      "source_ref": "atlas.relations",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-044",
+      "category": "agents",
+      "name": "Morality and remorse",
+      "description": "Intent, consent, harm, repair, no universal moral scalar",
+      "source_ref": "ethics.cases",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-045",
+      "category": "agents",
+      "name": "Wildlife instincts",
+      "description": "Animal learning, territory, hunger and flight response",
+      "source_ref": "civilization.ecosystems",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-046",
+      "category": "agents",
+      "name": "Movement and navigation",
+      "description": "Local sensing, pathfinding and interruptible travel",
+      "source_ref": "atlas.routes",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-047",
+      "category": "magic",
+      "name": "First Thread domains",
+      "description": "Exactly one per entity; eight typed domains",
+      "source_ref": "atlas.ability_domains",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-048",
+      "category": "magic",
+      "name": "Sub-ability progression",
+      "description": "Prerequisites, practice evidence and world event unlocking",
+      "source_ref": "atlas.sub_abilities",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-049",
+      "category": "magic",
+      "name": "Magic material costs",
+      "description": "Limited energy and materials; no free construction",
+      "source_ref": "docs/ABILITIES.md",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-050",
+      "category": "magic",
+      "name": "Veil threats",
+      "description": "Night Archivist, memory scars and limited manifestations",
+      "source_ref": "atlas.entities",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-051",
+      "category": "magic",
+      "name": "Forbidden rites",
+      "description": "Chain Oath, coercion resistance and consequence",
+      "source_ref": "ethics.taboos",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-052",
+      "category": "magic",
+      "name": "Faith and divine uncertainty",
+      "description": "Religious accounts are not proof of creator activity",
+      "source_ref": "civilization.faiths",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-053",
+      "category": "history",
+      "name": "Historical chronology",
+      "description": "Creation-to-medieval dated fact and events",
+      "source_ref": "atlas.events",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-054",
+      "category": "history",
+      "name": "Event evidence and provenance",
+      "description": "Authored history separate from observed simulation",
+      "source_ref": "atlas.events",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-055",
+      "category": "history",
+      "name": "Dynamic state and replay",
+      "description": "Immutable event transactions and replay snapshots",
+      "source_ref": "docs/NEXT_WORK.md",
+      "canon_status": "design_outlined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-056",
+      "category": "history",
+      "name": "Historical knowledge",
+      "description": "Evolving maps and biased chroniclers",
+      "source_ref": "docs/CANON_AND_CONTINUITY.md",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "critical"
+    },
+    {
+      "id": "SYS-057",
+      "category": "gameplay",
+      "name": "Player agency",
+      "description": "Player inhabits world with same rules as NPCs",
+      "source_ref": "docs/MORAL_CAUSAL_MODEL.md",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-058",
+      "category": "gameplay",
+      "name": "Emergent objectives",
+      "description": "No required chapters, choices drive future tasks",
+      "source_ref": "docs/NEXT_WORK.md",
+      "canon_status": "design_outlined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-059",
+      "category": "gameplay",
+      "name": "Combat and injuries",
+      "description": "Damage, defense, terrain, mortality and magical effects",
+      "source_ref": "docs/NEXT_WORK.md",
+      "canon_status": "design_outlined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-060",
+      "category": "gameplay",
+      "name": "Inventory and equipment",
+      "description": "Weight, durability, ownership, looting and sale",
+      "source_ref": "docs/NEXT_WORK.md",
+      "canon_status": "design_outlined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-061",
+      "category": "gameplay",
+      "name": "Exploration and discovery",
+      "description": "Fog of knowledge, map updates and secret places",
+      "source_ref": "docs/SPATIAL_SYSTEM.md",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-062",
+      "category": "gameplay",
+      "name": "Saving and loading",
+      "description": "Persist physical state, world event history and memories",
+      "source_ref": "docs/NEXT_WORK.md",
+      "canon_status": "design_outlined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-063",
+      "category": "gameplay",
+      "name": "Rendering and UI",
+      "description": "Readable world presentation distinct from fiction database",
+      "source_ref": "docs/NEXT_WORK.md",
+      "canon_status": "design_outlined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-064",
+      "category": "quality",
+      "name": "Canonical schema checks",
+      "description": "Registered IDs, known references, timeline and geometry",
+      "source_ref": "scripts/validate_world.py",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-065",
+      "category": "quality",
+      "name": "Ethics consistency tests",
+      "description": "Personhood, false claims, agency and consent",
+      "source_ref": "scripts/validate_ethics.py",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-066",
+      "category": "quality",
+      "name": "Civilization integrity checks",
+      "description": "Demographics, materials, sites, trade and system scope",
+      "source_ref": "scripts/validate_civilization.py",
+      "canon_status": "registry_or_canon_defined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-067",
+      "category": "quality",
+      "name": "Deterministic sim tests",
+      "description": "Reproducible ticks, emergent economies and decision tests",
+      "source_ref": "docs/NEXT_WORK.md",
+      "canon_status": "design_outlined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    },
+    {
+      "id": "SYS-068",
+      "category": "quality",
+      "name": "Performance and observability",
+      "description": "World streaming, profiler, diagnostics, state checksums",
+      "source_ref": "docs/NEXT_WORK.md",
+      "canon_status": "design_outlined",
+      "simulation_runtime": "not_implemented",
+      "priority": "planned"
+    }
+  ],
+  "delivery_phases": [
+    {
+      "id": "PHASE-001",
+      "title": "Canon and reproducible references",
+      "status": "documentation_and_registry_present",
+      "description": "World layers, chronology, society, demographic estimates, evil and evidence-based validation."
+    },
+    {
+      "id": "PHASE-002",
+      "title": "Event-sourced core state",
+      "status": "not_implemented",
+      "description": "Deterministic clock, actor state, resource transactions, terrain occupancy, save/replay."
+    },
+    {
+      "id": "PHASE-003",
+      "title": "Autonomous inhabited ecology",
+      "status": "not_implemented",
+      "description": "Needs-based people and wildlife, food/resource loops and travel."
+    },
+    {
+      "id": "PHASE-004",
+      "title": "Society and conflict",
+      "status": "not_implemented",
+      "description": "Markets, social learning, laws, elections, slavery resistance, warfare, diplomacy."
+    },
+    {
+      "id": "PHASE-005",
+      "title": "Playable RPG experience",
+      "status": "not_implemented",
+      "description": "Player, simulation-backed character actions, meaningful UI, performance and release testing."
+    }
+  ],
+  "progress_policy": "A system is not implemented merely because it has lore, data, a contract or a validator. Live gameplay claims require executable behavior and recorded tests."
+}

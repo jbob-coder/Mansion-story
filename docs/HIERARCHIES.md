@@ -32,3 +32,8 @@ Do not interpret a political parent as proof that roads or citizens within a ter
 `SET-002` Stonehorn Camp is a Hornborn settlement and an affected political community, not a wild-animal territory. `LAW-001` prohibits coercive pacts while `LAW-002` can be legally enforced and still produce unjust results. `LAW-004` originates from `EVT-046`, not merely the founding of the Unbound Watch.
 
 Each political power relation in `data/world/atlas.json` has its own effective year. Law records in `data/world/ethics.json` name jurisdiction, enacted event and enforcement; these are **not** automatic compulsion of any citizen.
+
+## Crown heartlands and minority self-rule
+The largest recorded state, human-led `POL-001` Vael Taryn, relies on mixed-species cities and labor. Its subordinate `POL-002` Bellward March hosts Hollowford and a manor service ward. `POL-003` Reedfen River League governs `SET-006` Reedfen Stiltward. `POL-004` Brackenhold Free Assembly governs `SET-005` Brackenhold Enclave. These are overlapping claims and charters, **not** proof that the species with the most people owns every plot or commands every individual.
+
+New institutions: `ORG-006` Royal Survey Office, `ORG-007` Lantern Hearthkeepers, `ORG-008` Bellward Wardens, `ORG-009` Farmers' Compact, `ORG-010` Brackenhold Craft Assembly and `ORG-011` Boatfolk Union. The creator may add future polities, but cannot pretend unknown continents are already charted. See `data/world/civilization.json` for occupation, faith, social rank, trade, and demographic registers.

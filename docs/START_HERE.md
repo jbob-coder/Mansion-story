@@ -35,3 +35,6 @@ Do not silently change a historical event, established coordinate, old ID or bir
 WORLD-`NNN`, LYR-`NNN`, LOC-`NNN`, BLD-`NNN`, SET-`NNN`, POL-`NNN`, ORG-`NNN`, NPC-`NNN`, ABI-`NNN`, SUB-`NNN`, EVT-`NNN`, RTE-`NNN`, REL-`NNN`. Identifiers never recycle. Names may change and identities need not.
 
 This repository is the historical/worldbuilding authority for Mansion Story only; it is not automatically coupled to other game repositories.
+
+## Civilizational expansion entrypoints
+Read `docs/HUMAN_DOMINION.md`, `docs/CREATURE_CODEX.md`, `docs/CIVILIZATION_AND_ECONOMY.md` and `docs/COMPLETE_WORLD_INVENTORY.md`. The machine-readable registries now include `data/world/civilization.json` (known-world demographic estimates, settlements and economic capacities) and `data/world/system_catalog.json` (68 RPG/simulation systems; documented does **not** mean implemented). Run `python scripts/validate_civilization.py` and `python -m unittest discover -s tests -v` after touching data or validation logic. New global IDs must be unique **across all registries**.

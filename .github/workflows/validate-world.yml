@@ -24,10 +24,12 @@ jobs:
         with:
           python-version: '3.12'
       - name: Compile validators and test module
-        run: python -m py_compile scripts/validate_world.py scripts/validate_ethics.py tests/test_world_integrity.py
+        run: python -m py_compile scripts/validate_world.py scripts/validate_ethics.py scripts/validate_civilization.py tests/test_world_integrity.py tests/test_civilization.py
       - name: Validate original atlas
         run: python scripts/validate_world.py
       - name: Validate world and ethics registries
         run: python scripts/validate_ethics.py
+      - name: Validate civilization, species and systems
+        run: python scripts/validate_civilization.py
       - name: Run regression tests
         run: python -m unittest discover -s tests -v

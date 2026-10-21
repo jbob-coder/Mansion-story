@@ -25,3 +25,6 @@ Each mapped location has `precision`: `authored_exact` for layout anchors, or `e
 
 ## Future expansions
 When extending beyond MAP-001, add a new frame and a measured rigid transform, or introduce planetary coordinates with an explicit datum/projection; do not assume one chart is valid for an entire world. Portal edges have explicit origin, destination, traversal constraints and no fake Euclidean distance.
+
+## Human heartland survey expansion
+`MAP-001` now includes 30 location anchors, from far western Moorcrest to eastern Dawnridge and Skyglass Ridge, and 34 registered route edges. Both Surface and Deep may share this **regional physical frame**. No fictional local `x,y` coordinate can be naively extrapolated into a globe, dimensional distance, or a territorial border. Settlement demographic service areas are abstract boundaries **not stored as authoritative land polygons**.

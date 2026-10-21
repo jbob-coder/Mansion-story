@@ -534,6 +534,202 @@
         "precision": "authored_exact"
       },
       "core_ability_id": "ABI-006"
+    },
+    {
+      "id": "LOC-017",
+      "name": "Stonebridge",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 12,
+        "y_km": -46,
+        "z_m": 135,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-002"
+    },
+    {
+      "id": "LOC-018",
+      "name": "Grainmere",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": -24,
+        "y_km": -40,
+        "z_m": 115,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-004"
+    },
+    {
+      "id": "LOC-019",
+      "name": "Moorcrest",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": -79,
+        "y_km": -8,
+        "z_m": 290,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-008"
+    },
+    {
+      "id": "LOC-020",
+      "name": "Reedfen",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": -13,
+        "y_km": -75,
+        "z_m": 62,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-003"
+    },
+    {
+      "id": "LOC-021",
+      "name": "Brackenhold",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": -95,
+        "y_km": -42,
+        "z_m": 175,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-002"
+    },
+    {
+      "id": "LOC-022",
+      "name": "Dawnridge",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 122,
+        "y_km": 30,
+        "z_m": 515,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-002"
+    },
+    {
+      "id": "LOC-023",
+      "name": "Low Lantern Shrine",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 16,
+        "y_km": -58,
+        "z_m": 92,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-001"
+    },
+    {
+      "id": "LOC-024",
+      "name": "Ruined Dovecourt",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 85,
+        "y_km": -64,
+        "z_m": 200,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-007"
+    },
+    {
+      "id": "LOC-025",
+      "name": "Copperfall Smithy",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 44,
+        "y_km": -43,
+        "z_m": 185,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-001"
+    },
+    {
+      "id": "LOC-026",
+      "name": "Crownspire Granary",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 3,
+        "y_km": -5,
+        "z_m": 190,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-004"
+    },
+    {
+      "id": "LOC-027",
+      "name": "Silverrun Market",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 19,
+        "y_km": -36,
+        "z_m": 100,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-006"
+    },
+    {
+      "id": "LOC-028",
+      "name": "Skyglass Ridge",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 140,
+        "y_km": 70,
+        "z_m": 790,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-008"
+    },
+    {
+      "id": "LOC-029",
+      "name": "Crownspire East Quarter",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 2,
+        "y_km": 1,
+        "z_m": 213,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-006"
+    },
+    {
+      "id": "LOC-030",
+      "name": "Brackenhold Deep Gallery",
+      "type": "location",
+      "layer_id": "LYR-002",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": -95,
+        "y_km": -42,
+        "z_m": -130,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-002"
     }
   ],
   "entities": [
@@ -595,7 +791,8 @@
           "sub_ability_id": "SUB-011",
           "event_id": "EVT-012"
         }
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "NPC-002",
@@ -610,7 +807,8 @@
           "sub_ability_id": "SUB-003",
           "event_id": "EVT-013"
         }
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "NPC-003",
@@ -625,7 +823,8 @@
           "sub_ability_id": "SUB-005",
           "event_id": "EVT-014"
         }
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "NPC-004",
@@ -640,7 +839,8 @@
           "sub_ability_id": "SUB-009",
           "event_id": "EVT-015"
         }
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "NPC-005",
@@ -659,7 +859,8 @@
           "sub_ability_id": "SUB-002",
           "event_id": "EVT-010"
         }
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "NPC-006",
@@ -674,7 +875,8 @@
           "sub_ability_id": "SUB-009",
           "event_id": "EVT-011"
         }
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "NPC-007",
@@ -695,7 +897,8 @@
           "event_id": "EVT-020"
         }
       ],
-      "historical_only": true
+      "historical_only": true,
+      "species_id": "SPC-005"
     },
     {
       "id": "ENT-001",
@@ -777,7 +980,8 @@
       ],
       "intentional_harms": [
         "EVT-030"
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "NPC-009",
@@ -825,7 +1029,8 @@
           "sub_ability_id": "SUB-018",
           "event_id": "EVT-040"
         }
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "NPC-012",
@@ -840,7 +1045,8 @@
           "sub_ability_id": "SUB-009",
           "event_id": "EVT-032"
         }
-      ]
+      ],
+      "species_id": "SPC-005"
     },
     {
       "id": "ORG-005",
@@ -851,6 +1057,318 @@
       "core_ability_id": "ABI-006",
       "founded_year": 29570,
       "description": "A coalition of influential hereditary houses; not the whole kingdom."
+    },
+    {
+      "id": "POL-003",
+      "type": "polity",
+      "name": "Reedfen River League",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-020",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29785
+    },
+    {
+      "id": "POL-004",
+      "type": "polity",
+      "name": "Brackenhold Free Assembly",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-021",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29742
+    },
+    {
+      "id": "SET-003",
+      "type": "settlement",
+      "name": "Stonebridge Town",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-017",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29640
+    },
+    {
+      "id": "SET-004",
+      "type": "settlement",
+      "name": "Grainmere Village",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-018",
+      "core_ability_id": "ABI-004",
+      "founded_year": 29690
+    },
+    {
+      "id": "SET-005",
+      "type": "settlement",
+      "name": "Brackenhold Enclave",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-021",
+      "core_ability_id": "ABI-002",
+      "founded_year": 29740
+    },
+    {
+      "id": "SET-006",
+      "type": "settlement",
+      "name": "Reedfen Stiltward",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-020",
+      "core_ability_id": "ABI-003",
+      "founded_year": 29800
+    },
+    {
+      "id": "SET-007",
+      "type": "settlement",
+      "name": "Dawnridge Borough",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-022",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29870
+    },
+    {
+      "id": "SET-008",
+      "type": "settlement",
+      "name": "Crownspire City",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-001",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29430
+    },
+    {
+      "id": "SET-009",
+      "type": "settlement",
+      "name": "Eastwatch Garrison",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-007",
+      "core_ability_id": "ABI-005",
+      "founded_year": 29875
+    },
+    {
+      "id": "SET-010",
+      "type": "settlement",
+      "name": "Bellward Ward",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-002",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29842
+    },
+    {
+      "id": "BLD-003",
+      "type": "building",
+      "name": "Crown Granary",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-026",
+      "core_ability_id": "ABI-004",
+      "founded_year": 29812
+    },
+    {
+      "id": "BLD-004",
+      "type": "building",
+      "name": "Copperfall Smithy",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-025",
+      "core_ability_id": "ABI-001",
+      "founded_year": 29910
+    },
+    {
+      "id": "BLD-005",
+      "type": "building",
+      "name": "Low Lantern Shrine",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-023",
+      "core_ability_id": "ABI-001",
+      "founded_year": 29290
+    },
+    {
+      "id": "BLD-006",
+      "type": "building",
+      "name": "Stonebridge Market Hall",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-017",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29720
+    },
+    {
+      "id": "ORG-006",
+      "type": "organization",
+      "name": "Royal Survey Office",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-029",
+      "core_ability_id": "ABI-005",
+      "founded_year": 29670
+    },
+    {
+      "id": "ORG-007",
+      "type": "organization",
+      "name": "Lantern Hearthkeepers",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-023",
+      "core_ability_id": "ABI-001",
+      "founded_year": 29420
+    },
+    {
+      "id": "ORG-008",
+      "type": "organization",
+      "name": "Bellward Wardens",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-002",
+      "core_ability_id": "ABI-005",
+      "founded_year": 29845
+    },
+    {
+      "id": "ORG-009",
+      "type": "organization",
+      "name": "Grainmere Farmers' Compact",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-018",
+      "core_ability_id": "ABI-004",
+      "founded_year": 29911
+    },
+    {
+      "id": "ORG-010",
+      "type": "organization",
+      "name": "Brackenhold Craft Assembly",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-021",
+      "core_ability_id": "ABI-002",
+      "founded_year": 29740
+    },
+    {
+      "id": "ORG-011",
+      "type": "organization",
+      "name": "Reedfen Boatfolk Union",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-020",
+      "core_ability_id": "ABI-003",
+      "founded_year": 29803
+    },
+    {
+      "id": "NPC-013",
+      "name": "Oren Halbrecht",
+      "type": "person",
+      "anchor_location_id": "LOC-022",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-002",
+      "born_year": 29954,
+      "species_id": "SPC-005",
+      "role": "frontier commander",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-014",
+      "name": "Elira Moss",
+      "type": "person",
+      "anchor_location_id": "LOC-018",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-004",
+      "born_year": 29967,
+      "species_id": "SPC-005",
+      "role": "healer and seed-keeper",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-015",
+      "name": "Tel Var",
+      "type": "person",
+      "anchor_location_id": "LOC-021",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-002",
+      "born_year": 29943,
+      "species_id": "SPC-006",
+      "role": "enclave council craft speaker",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-016",
+      "name": "Iri Reedwalker",
+      "type": "person",
+      "anchor_location_id": "LOC-020",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-003",
+      "born_year": 29971,
+      "species_id": "SPC-007",
+      "role": "boatfolk negotiator",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-017",
+      "name": "Sister Naeva",
+      "type": "person",
+      "anchor_location_id": "LOC-023",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-001",
+      "born_year": 29937,
+      "species_id": "SPC-005",
+      "role": "shrine keeper; does not know the full cosmological truth",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-018",
+      "name": "Fenn Vellar",
+      "type": "person",
+      "anchor_location_id": "LOC-029",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-007",
+      "born_year": 29968,
+      "species_id": "SPC-005",
+      "role": "historian and archival clerk",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-019",
+      "name": "Mara Greychaff",
+      "type": "person",
+      "anchor_location_id": "LOC-018",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-004",
+      "born_year": 29972,
+      "species_id": "SPC-005",
+      "role": "grain cooperative farmer",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-020",
+      "name": "Torvin Carrow",
+      "type": "person",
+      "anchor_location_id": "LOC-017",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-006",
+      "born_year": 29959,
+      "species_id": "SPC-005",
+      "role": "caravan trader",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-021",
+      "name": "Jessa Flintvale",
+      "type": "person",
+      "anchor_location_id": "LOC-025",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-001",
+      "born_year": 29982,
+      "species_id": "SPC-005",
+      "role": "mining-town smith",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-022",
+      "name": "Vella Stonehorn",
+      "type": "person",
+      "anchor_location_id": "LOC-016",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-005",
+      "born_year": 29986,
+      "species_id": "SPC-003",
+      "role": "Hornborn scouting apprentice",
+      "unlocks": []
+    },
+    {
+      "id": "NPC-023",
+      "name": "Bren Lowwater",
+      "type": "person",
+      "anchor_location_id": "LOC-003",
+      "layer_id": "LYR-001",
+      "core_ability_id": "ABI-003",
+      "born_year": 29976,
+      "species_id": "SPC-005",
+      "role": "fisher and ferryman",
+      "unlocks": []
     }
   ],
   "routes": [
@@ -1094,6 +1612,253 @@
         "walking",
         "horse"
       ]
+    },
+    {
+      "id": "RTE-018",
+      "name": "Grain Road",
+      "from_id": "LOC-001",
+      "to_id": "LOC-018",
+      "distance_km": 64,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-019",
+      "name": "Grainmere Trade Road",
+      "from_id": "LOC-018",
+      "to_id": "LOC-017",
+      "distance_km": 49,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-020",
+      "name": "Stonebridge Track",
+      "from_id": "LOC-017",
+      "to_id": "LOC-003",
+      "distance_km": 43,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-021",
+      "name": "Reedfen Water Track",
+      "from_id": "LOC-017",
+      "to_id": "LOC-020",
+      "distance_km": 57,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-022",
+      "name": "Moorcrest Road",
+      "from_id": "LOC-001",
+      "to_id": "LOC-019",
+      "distance_km": 108,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-023",
+      "name": "Moorcrest Quarry Road",
+      "from_id": "LOC-019",
+      "to_id": "LOC-021",
+      "distance_km": 53,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-024",
+      "name": "Crown Granary Alley",
+      "from_id": "LOC-001",
+      "to_id": "LOC-026",
+      "distance_km": 7,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-025",
+      "name": "Silverrun Market Track",
+      "from_id": "LOC-017",
+      "to_id": "LOC-027",
+      "distance_km": 17,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-026",
+      "name": "Dawnridge Royal Highway",
+      "from_id": "LOC-001",
+      "to_id": "LOC-022",
+      "distance_km": 158,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-027",
+      "name": "Skyglass Ridge Ascent",
+      "from_id": "LOC-022",
+      "to_id": "LOC-028",
+      "distance_km": 63,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-028",
+      "name": "Copperfall Smithy Trail",
+      "from_id": "LOC-009",
+      "to_id": "LOC-025",
+      "distance_km": 3.2,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-029",
+      "name": "Low Lantern Pilgrim Road",
+      "from_id": "LOC-018",
+      "to_id": "LOC-023",
+      "distance_km": 60,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-030",
+      "name": "Dovecourt Ruin Trail",
+      "from_id": "LOC-023",
+      "to_id": "LOC-024",
+      "distance_km": 98,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-031",
+      "name": "Crown East Quarter Walk",
+      "from_id": "LOC-001",
+      "to_id": "LOC-029",
+      "distance_km": 2.8,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-032",
+      "name": "Brackenhold Deep Stair",
+      "from_id": "LOC-021",
+      "to_id": "LOC-030",
+      "distance_km": 0.59,
+      "kind": "shaft",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking"
+      ]
+    },
+    {
+      "id": "RTE-033",
+      "name": "Ford-Market Footway",
+      "from_id": "LOC-004",
+      "to_id": "LOC-027",
+      "distance_km": 7,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-034",
+      "name": "Eastwatch Dawnridge Pass",
+      "from_id": "LOC-007",
+      "to_id": "LOC-022",
+      "distance_km": 40,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
     }
   ],
   "events": [
@@ -1186,6 +1951,24 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-070",
+      "when": {
+        "year": 17120,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Early human settlements share durable tools, stories and mobile food networks.",
+      "kind": "cultural_emergence",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-004"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-019",
       "when": {
         "year": 18412,
@@ -1261,6 +2044,24 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-071",
+      "when": {
+        "year": 21500,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Human communities spread across temperate valleys through migration and multi-village kinship.",
+      "kind": "migration",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-070"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-021",
       "when": {
         "year": 24560,
@@ -1297,6 +2098,25 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-072",
+      "when": {
+        "year": 27400,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Cultivation, animal care, storage and river transport expand across human-majority settlements.",
+      "kind": "agricultural_expansion",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-005",
+        "EVT-071"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-022",
       "when": {
         "year": 28110,
@@ -1309,6 +2129,96 @@
         "WORLD-001"
       ],
       "location_id": "LOC-005",
+      "cause_event_ids": [
+        "EVT-005"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-073",
+      "when": {
+        "year": 28700,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Early human-led river trade compacts finance bridges, seed stores and defended market roads.",
+      "kind": "political_consolidation",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-072"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-074",
+      "when": {
+        "year": 28900,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "The first comparative guild records show humans holding the greatest settled infrastructure in the documented heartlands.",
+      "kind": "census_estimate",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-073"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-048",
+      "when": {
+        "year": 29290,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "The Low Lantern Shrine is established by travelers tending a communal flame.",
+      "kind": "founding",
+      "participants": [
+        "BLD-005"
+      ],
+      "location_id": "LOC-023",
+      "cause_event_ids": [
+        "EVT-005"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-049",
+      "when": {
+        "year": 29420,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "The Lantern Hearthkeepers establish a continuing care order.",
+      "kind": "founding",
+      "participants": [
+        "ORG-007"
+      ],
+      "location_id": "LOC-023",
+      "cause_event_ids": [
+        "EVT-048"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-050",
+      "when": {
+        "year": 29430,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Crownspire acquires a permanent named city charter predating the Vael Taryn crown.",
+      "kind": "founding",
+      "participants": [
+        "SET-008"
+      ],
+      "location_id": "LOC-001",
       "cause_event_ids": [
         "EVT-005"
       ],
@@ -1369,6 +2279,42 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-051",
+      "when": {
+        "year": 29640,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Stonebridge Town establishes a council and public bridge-market.",
+      "kind": "founding",
+      "participants": [
+        "SET-003"
+      ],
+      "location_id": "LOC-017",
+      "cause_event_ids": [
+        "EVT-006"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-052",
+      "when": {
+        "year": 29670,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "The crown charters its first central survey office.",
+      "kind": "founding",
+      "participants": [
+        "ORG-006"
+      ],
+      "location_id": "LOC-029",
+      "cause_event_ids": [
+        "EVT-006"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-023",
       "when": {
         "year": 29672,
@@ -1388,6 +2334,24 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-053",
+      "when": {
+        "year": 29690,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Grainmere Village becomes a permanent farming settlement.",
+      "kind": "founding",
+      "participants": [
+        "SET-004"
+      ],
+      "location_id": "LOC-018",
+      "cause_event_ids": [
+        "EVT-051"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-017",
       "when": {
         "year": 29710,
@@ -1402,6 +2366,134 @@
       "location_id": "LOC-003",
       "cause_event_ids": [
         "EVT-005"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-054",
+      "when": {
+        "year": 29720,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Stonebridge builds a shared market hall with managed weights.",
+      "kind": "construction",
+      "participants": [
+        "BLD-006",
+        "SET-003"
+      ],
+      "location_id": "LOC-017",
+      "cause_event_ids": [
+        "EVT-051"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-055",
+      "when": {
+        "year": 29740,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Deepkin and resident allies establish the Brackenhold Enclave.",
+      "kind": "founding",
+      "participants": [
+        "SET-005",
+        "ORG-010"
+      ],
+      "location_id": "LOC-021",
+      "cause_event_ids": [
+        "EVT-053"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-056",
+      "when": {
+        "year": 29742,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Brackenhold's assembly affirms self-government and trade treaties.",
+      "kind": "founding",
+      "participants": [
+        "POL-004"
+      ],
+      "location_id": "LOC-021",
+      "cause_event_ids": [
+        "EVT-055"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-057",
+      "when": {
+        "year": 29785,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "A Reedfen River League agreement establishes navigation and marsh norms.",
+      "kind": "founding",
+      "participants": [
+        "POL-003"
+      ],
+      "location_id": "LOC-020",
+      "cause_event_ids": [
+        "EVT-051"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-058",
+      "when": {
+        "year": 29800,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Reedfen Stiltward expands as a mixed human and Reedfolk settlement.",
+      "kind": "founding",
+      "participants": [
+        "SET-006"
+      ],
+      "location_id": "LOC-020",
+      "cause_event_ids": [
+        "EVT-057"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-059",
+      "when": {
+        "year": 29803,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "The Boatfolk Union is constituted to coordinate ferries and rights.",
+      "kind": "founding",
+      "participants": [
+        "ORG-011"
+      ],
+      "location_id": "LOC-020",
+      "cause_event_ids": [
+        "EVT-058"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-060",
+      "when": {
+        "year": 29812,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "The Crown Granary is built to reduce urban crop shocks.",
+      "kind": "construction",
+      "participants": [
+        "BLD-003"
+      ],
+      "location_id": "LOC-026",
+      "cause_event_ids": [
+        "EVT-050"
       ],
       "provenance": "authored_fact"
     },
@@ -1443,6 +2535,42 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-061",
+      "when": {
+        "year": 29842,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Bellward Ward becomes a chartered service settlement around the manor.",
+      "kind": "founding",
+      "participants": [
+        "SET-010"
+      ],
+      "location_id": "LOC-002",
+      "cause_event_ids": [
+        "EVT-007"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-062",
+      "when": {
+        "year": 29845,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Bellward Wardens form as an official patrol order.",
+      "kind": "founding",
+      "participants": [
+        "ORG-008"
+      ],
+      "location_id": "LOC-002",
+      "cause_event_ids": [
+        "EVT-061"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-024",
       "when": {
         "year": 29860,
@@ -1457,6 +2585,42 @@
       "location_id": "LOC-001",
       "cause_event_ids": [
         "EVT-023"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-063",
+      "when": {
+        "year": 29870,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Dawnridge Borough forms around the east quarry and military road.",
+      "kind": "founding",
+      "participants": [
+        "SET-007"
+      ],
+      "location_id": "LOC-022",
+      "cause_event_ids": [
+        "EVT-062"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-064",
+      "when": {
+        "year": 29875,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Eastwatch Garrison receives permanent civil administration.",
+      "kind": "founding",
+      "participants": [
+        "SET-009"
+      ],
+      "location_id": "LOC-007",
+      "cause_event_ids": [
+        "EVT-063"
       ],
       "provenance": "authored_fact"
     },
@@ -1479,6 +2643,42 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-065",
+      "when": {
+        "year": 29910,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Copperfall Smithy establishes a forge near the mine's mouth.",
+      "kind": "construction",
+      "participants": [
+        "BLD-004"
+      ],
+      "location_id": "LOC-025",
+      "cause_event_ids": [
+        "EVT-060"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-066",
+      "when": {
+        "year": 29911,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Grainmere farmers establish a compact to share seed stores.",
+      "kind": "founding",
+      "participants": [
+        "ORG-009"
+      ],
+      "location_id": "LOC-018",
+      "cause_event_ids": [
+        "EVT-053"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-025",
       "when": {
         "year": 29940,
@@ -1493,6 +2693,24 @@
       "location_id": "LOC-001",
       "cause_event_ids": [
         "EVT-024"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-067",
+      "when": {
+        "year": 29950,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "A charter ledger records humans as the leading population and state-building community across the known heartlands.",
+      "kind": "census_estimate",
+      "participants": [
+        "ORG-006"
+      ],
+      "location_id": "LOC-029",
+      "cause_event_ids": [
+        "EVT-052"
       ],
       "provenance": "authored_fact"
     },
@@ -1644,6 +2862,25 @@
       ],
       "provenance": "authored_fact",
       "sub_ability_id": "SUB-011"
+    },
+    {
+      "id": "EVT-068",
+      "when": {
+        "year": 29980,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Farming, mining, caravan routes, and urban storehouses are joined in a regional distribution charter.",
+      "kind": "trade_charter",
+      "participants": [
+        "ORG-006",
+        "ORG-009"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-066"
+      ],
+      "provenance": "authored_fact"
     },
     {
       "id": "EVT-014",
@@ -1972,6 +3209,24 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-069",
+      "when": {
+        "year": 29999,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Regional demographic estimates are reconciled before the High Banners snapshot.",
+      "kind": "census_estimate",
+      "participants": [
+        "ORG-006"
+      ],
+      "location_id": "LOC-029",
+      "cause_event_ids": [
+        "EVT-067"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-008",
       "when": {
         "year": 30000,
@@ -2250,6 +3505,226 @@
       "until_year": null,
       "status": "established",
       "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-027",
+      "from_id": "POL-003",
+      "predicate": "governs",
+      "to_id": "SET-006",
+      "since_year": 29800,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-028",
+      "from_id": "POL-004",
+      "predicate": "governs",
+      "to_id": "SET-005",
+      "since_year": 29742,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-029",
+      "from_id": "SET-008",
+      "predicate": "capital_of",
+      "to_id": "POL-001",
+      "since_year": 29520,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-030",
+      "from_id": "SET-003",
+      "predicate": "governed_in",
+      "to_id": "POL-001",
+      "since_year": 29640,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-031",
+      "from_id": "SET-004",
+      "predicate": "governed_in",
+      "to_id": "POL-001",
+      "since_year": 29690,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-032",
+      "from_id": "SET-007",
+      "predicate": "governed_in",
+      "to_id": "POL-001",
+      "since_year": 29870,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-033",
+      "from_id": "SET-009",
+      "predicate": "governed_in",
+      "to_id": "POL-002",
+      "since_year": 29875,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-034",
+      "from_id": "SET-010",
+      "predicate": "governed_in",
+      "to_id": "POL-002",
+      "since_year": 29842,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-035",
+      "from_id": "ORG-006",
+      "predicate": "chartered_by",
+      "to_id": "POL-001",
+      "since_year": 29670,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-036",
+      "from_id": "ORG-007",
+      "predicate": "serves",
+      "to_id": "BLD-005",
+      "since_year": 29420,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-037",
+      "from_id": "ORG-009",
+      "predicate": "operates_in",
+      "to_id": "SET-004",
+      "since_year": 29911,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-038",
+      "from_id": "ORG-010",
+      "predicate": "administers",
+      "to_id": "SET-005",
+      "since_year": 29740,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-039",
+      "from_id": "ORG-011",
+      "predicate": "represents",
+      "to_id": "SET-006",
+      "since_year": 29803,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-040",
+      "from_id": "NPC-013",
+      "predicate": "commands",
+      "to_id": "SET-007",
+      "since_year": 29985,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-041",
+      "from_id": "NPC-015",
+      "predicate": "represents",
+      "to_id": "POL-004",
+      "since_year": 29980,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-042",
+      "from_id": "NPC-016",
+      "predicate": "represents",
+      "to_id": "ORG-011",
+      "since_year": 29990,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-043",
+      "from_id": "NPC-017",
+      "predicate": "tends",
+      "to_id": "BLD-005",
+      "since_year": 29970,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-044",
+      "from_id": "NPC-019",
+      "predicate": "member_of",
+      "to_id": "ORG-009",
+      "since_year": 29992,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-045",
+      "from_id": "NPC-020",
+      "predicate": "trades_in",
+      "to_id": "SET-003",
+      "since_year": 29980,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-046",
+      "from_id": "NPC-021",
+      "predicate": "works_at",
+      "to_id": "BLD-004",
+      "since_year": 29998,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-047",
+      "from_id": "NPC-022",
+      "predicate": "member_of",
+      "to_id": "SET-002",
+      "since_year": 29986,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-048",
+      "from_id": "NPC-023",
+      "predicate": "resides_in",
+      "to_id": "SET-001",
+      "since_year": 29976,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
     }
   ],
   "limitations": [
@@ -2258,7 +3733,9 @@
     "Cross-dimensional distances are not measured.",
     "Evil, taboos, historical rescue and atrocities are authored history, not output from running NPC decisions.",
     "Veil consciousness ENT-001 has no surface coordinates; manifestation at a site is not physical co-location.",
-    "Laws and taboos are culture-dependent records; legal status and moral justification differ."
+    "Laws and taboos are culture-dependent records; legal status and moral justification differ.",
+    "Human predominance describes the currently known and documented inhabited sphere, not a measured global census of undiscovered continents.",
+    "Demographic figures are authored settlement estimates, not a simulated headcount."
   ],
   "species": [
     {
@@ -2301,6 +3778,134 @@
       "habitats": [
         "LOC-003"
       ]
+    },
+    {
+      "id": "SPC-005",
+      "name": "Human",
+      "sapient": true,
+      "core_ability_id": "ABI-006",
+      "habitats": [
+        "LOC-001",
+        "LOC-002",
+        "LOC-003"
+      ],
+      "classification": "Widespread sapient civilization-builder with demographic, agricultural and institutional predominance in the known inhabited world"
+    },
+    {
+      "id": "SPC-006",
+      "name": "Deepkin",
+      "sapient": true,
+      "core_ability_id": "ABI-002",
+      "habitats": [
+        "LOC-006"
+      ],
+      "classification": "Sapient underground communities, craft and quarry traditions; not inherently submissive or hostile"
+    },
+    {
+      "id": "SPC-007",
+      "name": "Reedfolk",
+      "sapient": true,
+      "core_ability_id": "ABI-003",
+      "habitats": [
+        "LOC-004",
+        "LOC-010"
+      ],
+      "classification": "Sapient river and marsh cultures with complex trade and kinship"
+    },
+    {
+      "id": "SPC-008",
+      "name": "Plow ox",
+      "sapient": false,
+      "core_ability_id": "ABI-002",
+      "habitats": [
+        "LOC-003"
+      ],
+      "classification": "Domesticated agricultural draft animal"
+    },
+    {
+      "id": "SPC-009",
+      "name": "Road horse",
+      "sapient": false,
+      "core_ability_id": "ABI-008",
+      "habitats": [
+        "LOC-001",
+        "LOC-002"
+      ],
+      "classification": "Domesticated transport and cavalry mount"
+    },
+    {
+      "id": "SPC-010",
+      "name": "Mire heron",
+      "sapient": false,
+      "core_ability_id": "ABI-005",
+      "habitats": [
+        "LOC-004"
+      ],
+      "classification": "Fish-eating wetland bird"
+    },
+    {
+      "id": "SPC-011",
+      "name": "Ash beetle",
+      "sapient": false,
+      "core_ability_id": "ABI-001",
+      "habitats": [
+        "LOC-005"
+      ],
+      "classification": "Forest detritivore; participates in decomposition"
+    },
+    {
+      "id": "SPC-012",
+      "name": "Gloam hound",
+      "sapient": false,
+      "core_ability_id": "ABI-007",
+      "habitats": [
+        "LOC-008",
+        "LOC-012"
+      ],
+      "classification": "Rare altered nonsapient predatory fauna associated with Echo disturbances; not ethically guilty"
+    },
+    {
+      "id": "SPC-013",
+      "name": "Cloud wyvern",
+      "sapient": false,
+      "core_ability_id": "ABI-008",
+      "habitats": [
+        "LOC-028",
+        "LOC-022"
+      ],
+      "classification": "Rare flying predator; hunting and territorial behavior; wing energy and nesting constraints"
+    },
+    {
+      "id": "SPC-014",
+      "name": "Glassback boar",
+      "sapient": false,
+      "core_ability_id": "ABI-002",
+      "habitats": [
+        "LOC-005",
+        "LOC-015"
+      ],
+      "classification": "Armored woodland omnivore; aggressive if cornered, ecological seed disperser"
+    },
+    {
+      "id": "SPC-015",
+      "name": "Copperfall basilisk",
+      "sapient": false,
+      "core_ability_id": "ABI-002",
+      "habitats": [
+        "LOC-006",
+        "LOC-030"
+      ],
+      "classification": "Rare subterranean reptilian predator; localized stone-hardening defense costs heat and energy"
+    },
+    {
+      "id": "SPC-016",
+      "name": "Reed-stalker",
+      "sapient": false,
+      "core_ability_id": "ABI-003",
+      "habitats": [
+        "LOC-020"
+      ],
+      "classification": "Wetland amphibian ambush predator; sensitive to drought and food-web disturbance"
     }
   ]
 }

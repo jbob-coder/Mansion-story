@@ -38,3 +38,6 @@ A proposal to unlock needs: (1) parent core domain match, (2) prerequisite sub-a
 - `SUB-019` **Thorn Shelter** (Verdance `ABI-004`; requires `SUB-007`): protective growth responsive to available seeds and nutrients; conservation is not free matter creation.
 
 The Night Archivist also follows the one-core rule: `ABI-007` Echo. A being or artifact that produces terrifying effects does not receive a second hidden domain. No branch has a built-in good/evil flag: **what a person does with an ability, to whom, and with whose consent** matters.
+
+## Species reference affinity does not assign individual powers
+The human species registry `SPC-005` uses `ABI-006` Bond as a **reference affinity** for society-scale cooperation. A particular human may hold any one valid personal First Thread (e.g. Tessa's Hearth or Ilyan's Stone), irrespective of the species reference. Deepkin, Reedfolk and Hornborn likewise do not receive compulsory abilities because of ancestry. Species register entries are definitions and are not instantiated as additional supernatural abilities.
