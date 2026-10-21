@@ -1,17 +1,23 @@
-# Mansion Story — The Bellward Realm
+# Mansion Story — The World Before the Story
 
-A persistent, original medieval-fantasy RPG world archive. The repository records world truth, places, characters, artifacts, abilities, geography, history, and their relationships. **No chapters are required to advance time:** events update the shared world canon.
+**Canonical medieval-fantasy RPG universe and living-world archive.**
 
-## Start here
+Creation begins at **year 0**, not at a castle or a quest. The creator establishes physical and metaphysical laws and records how land, life, societies and histories arise. The requested destination is the **medieval-fantasy era, beginning in world year 30,000**. The archive currently contains the first complete chronological framework and an initial mapped region for that era.
 
-- `docs/START_HERE.md` — reading order, authoring workflow, and current scope.
-- `docs/WORLD_BIBLE.md` — original world premise, lore, and creative constraints.
-- `docs/SPATIAL_SYSTEM.md` — reference frames, location IDs, coordinate units, and distances.
-- `docs/TIME_AND_HISTORY.md` — calendar, chronology, and time rules.
-- `docs/HIERARCHIES.md` — geopolitical, settlement, institutional, and social authority.
-- `docs/ABILITIES.md` — exactly one core ability for every in-world entity; subordinate unlocks.
-- `docs/CANON_AND_CONTINUITY.md` — canonical truth, rumors, evidence, event history, and change control.
-- `data/world/` — machine-readable first slice of the world.
-- `scripts/validate_world.py` — offline, standard-library consistency checks.
+The creator establishes conditions, not a compulsory script for sentient beings. A world's history is a ledger of things that happened, not chapters the population must obey.
 
-The initial world is a **seed**, not a claim that every kingdom or era is fully documented. Coordinates are fictional, internally referenced, and expandable. Read the documents before adding facts. Nonliving entities may possess an ability domain without having consciousness or autonomous intent.
+## Reading order
+1. [The First Dawn](docs/THE_FIRST_DAWN.md) — genesis, the creator's limits, and emergence of reality.
+2. [World Bible](docs/WORLD_BIBLE.md) — themes, realms and what is and is not established.
+3. [Time and History](docs/TIME_AND_HISTORY.md) — dates, eras, time and the journey to the selected era.
+4. [Spatial System](docs/SPATIAL_SYSTEM.md) — world layers, coordinates, distances and containment.
+5. [Abilities](docs/ABILITIES.md) — one core domain per entity and unlockable branches.
+6. [Hierarchies](docs/HIERARCHIES.md) — settlements, families, crowns and overlapping authority.
+7. [Canon and Continuity](docs/CANON_AND_CONTINUITY.md) — IDs, claims, revisions and event history.
+8. [Start Here](docs/START_HERE.md) — repository layout, current state and expansion workflow.
+9. [Next Work](docs/NEXT_WORK.md) — explicit unimplemented systems.
+
+## Data
+`data/world/atlas.json` is the structured initial world registry. `scripts/validate_world.py` validates IDs, references, dates, ability ownership, coordinates and routes with Python's standard library.
+
+**Scope boundary:** This is an authored seed and world history, **not** an executing NPC simulation or complete planetary atlas. Coordinates within the charted region are fictional internal survey coordinates. A documented historical event does not imply the simulation was run.
