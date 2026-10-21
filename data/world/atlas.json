@@ -1047,7 +1047,7 @@
       "when": {
         "year": 30000,
         "day_of_year": 1,
-        "minute_of_day": 0
+        "minute_of_day": 360
       },
       "kind": "snapshot",
       "summary": "Reference snapshot; no live simulation tick.",
