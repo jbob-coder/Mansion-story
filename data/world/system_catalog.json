@@ -417,11 +417,22 @@
       "id": "SYS-042",
       "category": "agents",
       "name": "Social memory and rumors",
-      "description": "Incomplete knowledge, false accusations, witness spread",
+      "description": "Incomplete knowledge, false accusations, witness spread. Local durable memory/retrieval library implemented; rumor spread and live NPC integration pending.",
       "source_ref": "ethics.claims",
       "canon_status": "registry_or_canon_defined",
       "simulation_runtime": "not_implemented",
-      "priority": "critical"
+      "priority": "critical",
+      "component_status": {
+        "storage": "implemented_and_ci_tested",
+        "character_stat_profiles": "implemented_and_ci_tested",
+        "subjective_encoding": "implemented_and_ci_tested",
+        "intelligence_dependent_recall": "implemented_and_ci_tested",
+        "rumor_propagation": "not_implemented",
+        "perception_hook": "not_implemented",
+        "live_world_integration": "not_implemented",
+        "engine_module": "engine/character_memory.py",
+        "documentation": "docs/CHARACTER_MEMORY.md"
+      }
     },
     {
       "id": "SYS-043",
