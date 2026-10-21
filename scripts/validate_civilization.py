@@ -98,10 +98,10 @@ def validate_civilization(atlas: dict, ethics: dict, civ: dict, catalog: dict) -
     check(total > 0 and 2 * humans > total, "Humans are not majority of surveyed sample")
     check(humans > max([0, *[value for sid, value in species_totals.items() if sid != "SPC-005"]]),
           "Humans are not largest surveyed sapient population")
-    check(d["observed_sample_total"] == total, "Dominance sample total mismatch")
-    check(d["observed_sample_humans"] == humans, "Dominance human total mismatch")
+    check(d["authored_sample_total"] == total, "Dominance sample total mismatch")
+    check(d["authored_sample_humans"] == humans, "Dominance human total mismatch")
     if total:
-        check(math.isclose(d["observed_sample_human_share_percent"], round(humans * 100 / total, 2),
+        check(math.isclose(d["authored_sample_human_share_percent"], round(humans * 100 / total, 2),
                            abs_tol=0.005), "Human demographic percentage mismatch")
 
     res = {r["id"]: r for r in civ["resources"]}
@@ -197,8 +197,8 @@ def main() -> int:
         return 1
     civ = records["civilization"]
     print(f"PASS: {len(civ['demographics'])} demographic areas, "
-          f"{civ['human_predominance']['observed_sample_humans']} human residents "
-          f"among {civ['human_predominance']['observed_sample_total']} sample residents, "
+          f"{civ['human_predominance']['authored_sample_humans']} human residents "
+          f"among {civ['human_predominance']['authored_sample_total']} sample residents, "
           f"{len(records['system_catalog']['systems'])} cataloged systems")
     return 0
 
