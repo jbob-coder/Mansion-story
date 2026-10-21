@@ -1,0 +1,27 @@
+name: Validate world canon
+on:
+  push:
+    paths:
+      - 'data/world/**'
+      - 'scripts/validate_world.py'
+      - '.github/workflows/validate-world.yml'
+  pull_request:
+    paths:
+      - 'data/world/**'
+      - 'scripts/validate_world.py'
+      - '.github/workflows/validate-world.yml'
+  workflow_dispatch:
+jobs:
+  world-integrity:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile validator
+        run: python -m py_compile scripts/validate_world.py
+      - name: Validate atlas
+        run: python scripts/validate_world.py
