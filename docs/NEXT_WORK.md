@@ -24,3 +24,11 @@ This world currently has **authored historic outcomes**, not a million-year phys
 
 ## Expansion principle
 Each new era and region should have three levels of evidence: underlying rules; dated changes to world state; observers with limited information. A world that records only royal legends but not farms, roads, trade and ecological consequences will not feel alive.
+
+## Shadow canon milestone — verified repository objects (not live game systems)
+- Added documented evil through historical coercion, institutional abuse, and the sapient hostile Veil entity.
+- Added wildlife and Hornborn taxonomy, 5 additional mapped locations, 8 traversable routes, and a dated historical/organizational expansion.
+- Added `data/world/ethics.json` with enacted laws, diverse taboo categories, false rumors and moral case records.
+- Added `scripts/validate_ethics.py` and regression tests for timeline, route geometry, one-core inheritance, personhood, criminal responsibility and provenance.
+
+**Outstanding:** an autonomous morality engine is not yet implemented. Data-driven welfare, predators, social memory, coercive pact resistance, illegal trade, investigations, consequences, and institutional change require executable world-state engines with event logs. Do not report an authored kidnapping or rescue as if it were simulated.
