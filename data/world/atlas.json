@@ -1,0 +1,1191 @@
+{
+  "schema_version": 1,
+  "world": {
+    "id": "WORLD-001",
+    "name": "Eirenfall",
+    "core_ability_id": "ABI-007"
+  },
+  "calendar": {
+    "id": "CAL-001",
+    "days_per_year": 360,
+    "months_per_year": 12,
+    "days_per_month": 30,
+    "hours_per_day": 24,
+    "minutes_per_hour": 60
+  },
+  "clock": {
+    "year": 30000,
+    "day_of_year": 1,
+    "minute_of_day": 360,
+    "paused": true,
+    "description": "Authored starting snapshot, not running simulation"
+  },
+  "frames": [
+    {
+      "id": "MAP-001",
+      "name": "Crownspire regional survey",
+      "x_axis": "east",
+      "y_axis": "north",
+      "horizontal_unit": "km",
+      "vertical_unit": "m",
+      "origin_location_id": "LOC-001",
+      "scope": "local_region_only"
+    }
+  ],
+  "layers": [
+    {
+      "id": "LYR-001",
+      "name": "Surface",
+      "kind": "physical",
+      "frame_id": "MAP-001",
+      "core_ability_id": "ABI-004"
+    },
+    {
+      "id": "LYR-002",
+      "name": "Deep",
+      "kind": "physical",
+      "frame_id": "MAP-001",
+      "core_ability_id": "ABI-002"
+    },
+    {
+      "id": "LYR-003",
+      "name": "Sky",
+      "kind": "physical",
+      "frame_id": "MAP-001",
+      "core_ability_id": "ABI-008"
+    },
+    {
+      "id": "LYR-004",
+      "name": "Veil",
+      "kind": "metaphysical",
+      "frame_id": null,
+      "core_ability_id": "ABI-007"
+    },
+    {
+      "id": "LYR-005",
+      "name": "Aether",
+      "kind": "nonlocal",
+      "frame_id": null,
+      "core_ability_id": "ABI-006"
+    }
+  ],
+  "eras": [
+    {
+      "id": "ERA-001",
+      "name": "First Dawn",
+      "start_year": 0,
+      "end_year": 999
+    },
+    {
+      "id": "ERA-002",
+      "name": "Shaping Waters",
+      "start_year": 1000,
+      "end_year": 5999
+    },
+    {
+      "id": "ERA-003",
+      "name": "Wild Breath",
+      "start_year": 6000,
+      "end_year": 15999
+    },
+    {
+      "id": "ERA-004",
+      "name": "Waking Minds",
+      "start_year": 16000,
+      "end_year": 23999
+    },
+    {
+      "id": "ERA-005",
+      "name": "Hearth Age",
+      "start_year": 24000,
+      "end_year": 27999
+    },
+    {
+      "id": "ERA-006",
+      "name": "River Confederacies",
+      "start_year": 28000,
+      "end_year": 29499
+    },
+    {
+      "id": "ERA-007",
+      "name": "First Crowns",
+      "start_year": 29500,
+      "end_year": 29999
+    },
+    {
+      "id": "ERA-008",
+      "name": "High Banners",
+      "start_year": 30000,
+      "end_year": null
+    }
+  ],
+  "ability_domains": [
+    {
+      "id": "ABI-001",
+      "name": "Hearth"
+    },
+    {
+      "id": "ABI-002",
+      "name": "Stone"
+    },
+    {
+      "id": "ABI-003",
+      "name": "Current"
+    },
+    {
+      "id": "ABI-004",
+      "name": "Verdance"
+    },
+    {
+      "id": "ABI-005",
+      "name": "Sight"
+    },
+    {
+      "id": "ABI-006",
+      "name": "Bond"
+    },
+    {
+      "id": "ABI-007",
+      "name": "Echo"
+    },
+    {
+      "id": "ABI-008",
+      "name": "Wind"
+    }
+  ],
+  "sub_abilities": [
+    {
+      "id": "SUB-001",
+      "name": "Ember Tending",
+      "domain_id": "ABI-001",
+      "prerequisite_ids": [],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-002",
+      "name": "Forge Heat Shaping",
+      "domain_id": "ABI-001",
+      "prerequisite_ids": [
+        "SUB-001"
+      ],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-003",
+      "name": "Material Reading",
+      "domain_id": "ABI-002",
+      "prerequisite_ids": [],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-004",
+      "name": "Masonry Bond",
+      "domain_id": "ABI-002",
+      "prerequisite_ids": [
+        "SUB-003"
+      ],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-005",
+      "name": "Water Sense",
+      "domain_id": "ABI-003",
+      "prerequisite_ids": [],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-006",
+      "name": "Channel Shaping",
+      "domain_id": "ABI-003",
+      "prerequisite_ids": [
+        "SUB-005"
+      ],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-007",
+      "name": "Seed Tending",
+      "domain_id": "ABI-004",
+      "prerequisite_ids": [],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-008",
+      "name": "Root Weaving",
+      "domain_id": "ABI-004",
+      "prerequisite_ids": [
+        "SUB-007"
+      ],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-009",
+      "name": "Trail Reading",
+      "domain_id": "ABI-005",
+      "prerequisite_ids": [],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-010",
+      "name": "Pattern Inference",
+      "domain_id": "ABI-005",
+      "prerequisite_ids": [
+        "SUB-009"
+      ],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-011",
+      "name": "Shared Labor",
+      "domain_id": "ABI-006",
+      "prerequisite_ids": [],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-012",
+      "name": "Coordinated Resolve",
+      "domain_id": "ABI-006",
+      "prerequisite_ids": [
+        "SUB-011"
+      ],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-013",
+      "name": "Resonance Listening",
+      "domain_id": "ABI-007",
+      "prerequisite_ids": [],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-014",
+      "name": "Memory Trace",
+      "domain_id": "ABI-007",
+      "prerequisite_ids": [
+        "SUB-013"
+      ],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-015",
+      "name": "Air Reading",
+      "domain_id": "ABI-008",
+      "prerequisite_ids": [],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-016",
+      "name": "Sail Guiding",
+      "domain_id": "ABI-008",
+      "prerequisite_ids": [
+        "SUB-015"
+      ],
+      "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    }
+  ],
+  "locations": [
+    {
+      "id": "LOC-001",
+      "type": "location",
+      "name": "Crownspire",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 0,
+        "y_km": 0,
+        "z_m": 220,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-002"
+    },
+    {
+      "id": "LOC-002",
+      "type": "location",
+      "name": "Bellward Manor Grounds",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 36,
+        "y_km": -18,
+        "z_m": 340,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-006"
+    },
+    {
+      "id": "LOC-003",
+      "type": "location",
+      "name": "Hollowford",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 31,
+        "y_km": -22,
+        "z_m": 125,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-003"
+    },
+    {
+      "id": "LOC-004",
+      "type": "location",
+      "name": "Silverrun Ford",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 22,
+        "y_km": -31,
+        "z_m": 90,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-003"
+    },
+    {
+      "id": "LOC-005",
+      "type": "location",
+      "name": "Ashenwood",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 58,
+        "y_km": -12,
+        "z_m": 270,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-004"
+    },
+    {
+      "id": "LOC-006",
+      "type": "location",
+      "name": "Copperfall Mine",
+      "layer_id": "LYR-002",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 46,
+        "y_km": -44,
+        "z_m": -70,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-002"
+    },
+    {
+      "id": "LOC-007",
+      "type": "location",
+      "name": "Eastwatch Keep",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 95,
+        "y_km": 7,
+        "z_m": 410,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-005"
+    },
+    {
+      "id": "LOC-008",
+      "type": "location",
+      "name": "Old Cairn",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 68,
+        "y_km": -53,
+        "z_m": 480,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-007"
+    },
+    {
+      "id": "LOC-009",
+      "type": "location",
+      "name": "Copperfall Mine Mouth",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 46,
+        "y_km": -44,
+        "z_m": 190,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-002"
+    },
+    {
+      "id": "LOC-010",
+      "type": "location",
+      "name": "Starwater Lake",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": -66,
+        "y_km": 24,
+        "z_m": 110,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-003"
+    },
+    {
+      "id": "LOC-011",
+      "type": "location",
+      "name": "First Ember Sanctum",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": -112,
+        "y_km": 102,
+        "z_m": 390,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-001"
+    }
+  ],
+  "entities": [
+    {
+      "id": "POL-001",
+      "type": "polity",
+      "name": "Kingdom of Vael Taryn",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-001",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29520
+    },
+    {
+      "id": "POL-002",
+      "type": "polity",
+      "name": "Bellward March",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-002",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29830
+    },
+    {
+      "id": "SET-001",
+      "type": "settlement",
+      "name": "Hollowford Village",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-003",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29710
+    },
+    {
+      "id": "BLD-001",
+      "type": "building",
+      "name": "Bellward Manor",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-002",
+      "core_ability_id": "ABI-002",
+      "founded_year": 29840
+    },
+    {
+      "id": "ORG-001",
+      "type": "organization",
+      "name": "Wayfarers' Guild",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-001",
+      "core_ability_id": "ABI-005",
+      "founded_year": 29600
+    },
+    {
+      "id": "NPC-001",
+      "type": "person",
+      "name": "Queen Maera Vey",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-001",
+      "core_ability_id": "ABI-006",
+      "born_year": 29952,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-011",
+          "event_id": "EVT-012"
+        }
+      ]
+    },
+    {
+      "id": "NPC-002",
+      "type": "person",
+      "name": "Ilyan Rook",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-002",
+      "core_ability_id": "ABI-002",
+      "born_year": 29965,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-003",
+          "event_id": "EVT-013"
+        }
+      ]
+    },
+    {
+      "id": "NPC-003",
+      "type": "person",
+      "name": "Sela Thorn",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-003",
+      "core_ability_id": "ABI-003",
+      "born_year": 29959,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-005",
+          "event_id": "EVT-014"
+        }
+      ]
+    },
+    {
+      "id": "NPC-004",
+      "type": "person",
+      "name": "Harven Quill",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-001",
+      "core_ability_id": "ABI-005",
+      "born_year": 29931,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-009",
+          "event_id": "EVT-015"
+        }
+      ]
+    },
+    {
+      "id": "NPC-005",
+      "type": "person",
+      "name": "Tessa Flint",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-003",
+      "core_ability_id": "ABI-001",
+      "born_year": 29974,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-001",
+          "event_id": "EVT-009"
+        },
+        {
+          "sub_ability_id": "SUB-002",
+          "event_id": "EVT-010"
+        }
+      ]
+    },
+    {
+      "id": "NPC-006",
+      "type": "person",
+      "name": "Neris Vale",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-003",
+      "core_ability_id": "ABI-005",
+      "born_year": 29978,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-009",
+          "event_id": "EVT-011"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "RTE-001",
+      "name": "Crown Road",
+      "from_id": "LOC-001",
+      "to_id": "LOC-002",
+      "distance_km": 52,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "wagon",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-002",
+      "name": "Manor Footpath",
+      "from_id": "LOC-002",
+      "to_id": "LOC-003",
+      "distance_km": 8,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-003",
+      "name": "Silverrun Track",
+      "from_id": "LOC-003",
+      "to_id": "LOC-004",
+      "distance_km": 16,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-004",
+      "name": "Miner's Track",
+      "from_id": "LOC-003",
+      "to_id": "LOC-009",
+      "distance_km": 33,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "wagon",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-005",
+      "name": "Copperfall Descent",
+      "from_id": "LOC-009",
+      "to_id": "LOC-006",
+      "distance_km": 0.48,
+      "kind": "shaft",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking"
+      ]
+    },
+    {
+      "id": "RTE-006",
+      "name": "Ashenwood Path",
+      "from_id": "LOC-002",
+      "to_id": "LOC-005",
+      "distance_km": 28,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-007",
+      "name": "Eastwatch Road",
+      "from_id": "LOC-002",
+      "to_id": "LOC-007",
+      "distance_km": 83,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "wagon",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-008",
+      "name": "Lake Road",
+      "from_id": "LOC-001",
+      "to_id": "LOC-010",
+      "distance_km": 92,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "wagon",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-009",
+      "name": "Ember Pilgrimage",
+      "from_id": "LOC-010",
+      "to_id": "LOC-011",
+      "distance_km": 120,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-000",
+      "when": {
+        "year": 0,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "genesis",
+      "summary": "Time, physical reality and distinct world layers begin.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-001",
+      "when": {
+        "year": 600,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "formation",
+      "summary": "The first enduring stone forms.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-000"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-002",
+      "when": {
+        "year": 1800,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "formation",
+      "summary": "Water carves persistent basins.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-001"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-003",
+      "when": {
+        "year": 6200,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "life",
+      "summary": "Self-maintaining life spreads.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-002"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-004",
+      "when": {
+        "year": 16000,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "sentience",
+      "summary": "Reflective minds emerge.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-003"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-005",
+      "when": {
+        "year": 26210,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "settlement",
+      "summary": "Village cultures establish permanent homes.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-004"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-006",
+      "when": {
+        "year": 29520,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "founding",
+      "summary": "Vael Taryn crown is established.",
+      "participants": [
+        "POL-001"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-005"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-016",
+      "when": {
+        "year": 29600,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "founding",
+      "summary": "Wayfarers' Guild forms.",
+      "participants": [
+        "ORG-001"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-006"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-017",
+      "when": {
+        "year": 29710,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "founding",
+      "summary": "Hollowford becomes a chartered village.",
+      "participants": [
+        "SET-001"
+      ],
+      "location_id": "LOC-003",
+      "cause_event_ids": [
+        "EVT-005"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-018",
+      "when": {
+        "year": 29830,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "founding",
+      "summary": "Bellward March gains its charter.",
+      "participants": [
+        "POL-002"
+      ],
+      "location_id": "LOC-002",
+      "cause_event_ids": [
+        "EVT-006"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-007",
+      "when": {
+        "year": 29840,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "construction",
+      "summary": "Bellward Manor is built.",
+      "participants": [
+        "BLD-001",
+        "POL-002"
+      ],
+      "location_id": "LOC-002",
+      "cause_event_ids": [
+        "EVT-018"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-015",
+      "when": {
+        "year": 29960,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Harven practices trail reading.",
+      "participants": [
+        "NPC-004"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-016"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-009"
+    },
+    {
+      "id": "EVT-012",
+      "when": {
+        "year": 29980,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Maera unlocks Shared Labor.",
+      "participants": [
+        "NPC-001"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-006"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-011"
+    },
+    {
+      "id": "EVT-014",
+      "when": {
+        "year": 29985,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Sela unlocks Water Sense.",
+      "participants": [
+        "NPC-003"
+      ],
+      "location_id": "LOC-004",
+      "cause_event_ids": [
+        "EVT-017"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-005"
+    },
+    {
+      "id": "EVT-009",
+      "when": {
+        "year": 29990,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Tessa unlocks Ember Tending.",
+      "participants": [
+        "NPC-005"
+      ],
+      "location_id": "LOC-003",
+      "cause_event_ids": [
+        "EVT-017"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-001"
+    },
+    {
+      "id": "EVT-013",
+      "when": {
+        "year": 29993,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Ilyan unlocks Material Reading.",
+      "participants": [
+        "NPC-002"
+      ],
+      "location_id": "LOC-002",
+      "cause_event_ids": [
+        "EVT-007"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-003"
+    },
+    {
+      "id": "EVT-011",
+      "when": {
+        "year": 29993,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Neris unlocks Trail Reading.",
+      "participants": [
+        "NPC-006"
+      ],
+      "location_id": "LOC-003",
+      "cause_event_ids": [
+        "EVT-016"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-009"
+    },
+    {
+      "id": "EVT-010",
+      "when": {
+        "year": 29998,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Tessa unlocks Forge Heat Shaping.",
+      "participants": [
+        "NPC-005"
+      ],
+      "location_id": "LOC-003",
+      "cause_event_ids": [
+        "EVT-009"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-002"
+    },
+    {
+      "id": "EVT-008",
+      "when": {
+        "year": 30000,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "snapshot",
+      "summary": "Reference snapshot; no live simulation tick.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-007"
+      ],
+      "provenance": "authored_fact"
+    }
+  ],
+  "relations": [
+    {
+      "id": "REL-001",
+      "from_id": "NPC-001",
+      "predicate": "rules",
+      "to_id": "POL-001",
+      "since_year": 29980,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-002",
+      "from_id": "NPC-002",
+      "predicate": "governs",
+      "to_id": "POL-002",
+      "since_year": 29994,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-003",
+      "from_id": "POL-002",
+      "predicate": "vassal_of",
+      "to_id": "POL-001",
+      "since_year": 29830,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-004",
+      "from_id": "SET-001",
+      "predicate": "governed_in",
+      "to_id": "POL-002",
+      "since_year": 29830,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-005",
+      "from_id": "NPC-003",
+      "predicate": "represents",
+      "to_id": "SET-001",
+      "since_year": 29995,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-006",
+      "from_id": "NPC-004",
+      "predicate": "leads",
+      "to_id": "ORG-001",
+      "since_year": 29971,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-007",
+      "from_id": "BLD-001",
+      "predicate": "located_at",
+      "to_id": "LOC-002",
+      "since_year": 29840,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-008",
+      "from_id": "ORG-001",
+      "predicate": "operates_in",
+      "to_id": "POL-001",
+      "since_year": 29600,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-009",
+      "from_id": "NPC-005",
+      "predicate": "resides_in",
+      "to_id": "SET-001",
+      "since_year": 29974,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-010",
+      "from_id": "NPC-006",
+      "predicate": "member_of",
+      "to_id": "ORG-001",
+      "since_year": 29993,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-011",
+      "from_id": "POL-001",
+      "predicate": "seated_at",
+      "to_id": "LOC-001",
+      "since_year": 29520,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-012",
+      "from_id": "POL-002",
+      "predicate": "seated_at",
+      "to_id": "BLD-001",
+      "since_year": 29840,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    }
+  ],
+  "limitations": [
+    "Historical events are authored, not observed simulation.",
+    "Uncharted geography remains unknown.",
+    "Cross-dimensional distances are not measured."
+  ]
+}
