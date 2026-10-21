@@ -1,0 +1,909 @@
+{
+  "schema_version": 1,
+  "world_id": "WORLD-001",
+  "reference_time": {
+    "year": 30000,
+    "day_of_year": 1,
+    "minute_of_day": 360
+  },
+  "human_predominance": {
+    "id": "DOM-001",
+    "species_id": "SPC-005",
+    "scope": "known_documented_inhabited_world",
+    "status": "authored_canon",
+    "dimensions": [
+      "human_population_plurality",
+      "human_population_majority_in_sample",
+      "kingdom_land_institutions",
+      "agricultural_reach",
+      "tax_administration",
+      "military_infrastructure",
+      "trade_networks"
+    ],
+    "qualifier": "Global uncharted lands have no measured census; predominance is a present known-world premise, not a proof that every region is majority human.",
+    "observed_sample_total": 80850,
+    "observed_sample_humans": 64520,
+    "observed_sample_human_share_percent": 79.8,
+    "provenance": "authored_estimate",
+    "ethical_constraint": "Human dominance grants no intrinsic moral status, divine right, biological superiority or guaranteed future rule."
+  },
+  "demographics": [
+    {
+      "id": "DEM-001",
+      "settlement_id": "SET-008",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 52000,
+      "species_estimates": {
+        "SPC-005": 44000,
+        "SPC-003": 2600,
+        "SPC-006": 3100,
+        "SPC-007": 2300
+      },
+      "profile": "Royal metropolis; seat of guilds, archives, council and organized tax system"
+    },
+    {
+      "id": "DEM-002",
+      "settlement_id": "SET-001",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 2800,
+      "species_estimates": {
+        "SPC-005": 2250,
+        "SPC-003": 200,
+        "SPC-006": 200,
+        "SPC-007": 150
+      },
+      "profile": "Agriculture, river services, forge and refuge"
+    },
+    {
+      "id": "DEM-003",
+      "settlement_id": "SET-003",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 9100,
+      "species_estimates": {
+        "SPC-005": 7350,
+        "SPC-003": 350,
+        "SPC-006": 800,
+        "SPC-007": 600
+      },
+      "profile": "Bridge tolls, caravan markets, craft workshops"
+    },
+    {
+      "id": "DEM-004",
+      "settlement_id": "SET-004",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 5400,
+      "species_estimates": {
+        "SPC-005": 4810,
+        "SPC-003": 180,
+        "SPC-006": 230,
+        "SPC-007": 180
+      },
+      "profile": "Grain farming, animal husbandry, millers"
+    },
+    {
+      "id": "DEM-005",
+      "settlement_id": "SET-006",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 3700,
+      "species_estimates": {
+        "SPC-005": 2200,
+        "SPC-003": 100,
+        "SPC-006": 200,
+        "SPC-007": 1200
+      },
+      "profile": "Stilt homes, ferries, fishing and reeds"
+    },
+    {
+      "id": "DEM-006",
+      "settlement_id": "SET-005",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 3100,
+      "species_estimates": {
+        "SPC-005": 350,
+        "SPC-003": 100,
+        "SPC-006": 2550,
+        "SPC-007": 100
+      },
+      "profile": "Quarry and ore artisans; independent assembly"
+    },
+    {
+      "id": "DEM-007",
+      "settlement_id": "SET-002",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 760,
+      "species_estimates": {
+        "SPC-005": 30,
+        "SPC-003": 720,
+        "SPC-006": 10,
+        "SPC-007": 0
+      },
+      "profile": "Hornborn-led refuge, mutual defense, woodland crafts"
+    },
+    {
+      "id": "DEM-008",
+      "settlement_id": "SET-009",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 1200,
+      "species_estimates": {
+        "SPC-005": 1150,
+        "SPC-003": 10,
+        "SPC-006": 30,
+        "SPC-007": 10
+      },
+      "profile": "Permanent garrison, supply stables and attendants"
+    },
+    {
+      "id": "DEM-009",
+      "settlement_id": "SET-007",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 2150,
+      "species_estimates": {
+        "SPC-005": 1800,
+        "SPC-003": 50,
+        "SPC-006": 200,
+        "SPC-007": 100
+      },
+      "profile": "East quarry, road builders, merchants and border patrol"
+    },
+    {
+      "id": "DEM-010",
+      "settlement_id": "SET-010",
+      "period": {
+        "year": 30000,
+        "day_of_year": 1
+      },
+      "provenance": "authored_estimate",
+      "confidence": "illustrative_not_measured",
+      "scope": "settlement_service_area",
+      "total_estimate": 640,
+      "species_estimates": {
+        "SPC-005": 580,
+        "SPC-003": 20,
+        "SPC-006": 25,
+        "SPC-007": 15
+      },
+      "profile": "March manor service ward, guards, growers and couriers"
+    }
+  ],
+  "resources": [
+    {
+      "id": "RES-001",
+      "name": "grain",
+      "unit": "tonne",
+      "domain": "food",
+      "description": "seasonal harvest and grain storage"
+    },
+    {
+      "id": "RES-002",
+      "name": "timber",
+      "unit": "m3",
+      "domain": "construction",
+      "description": "requires harvested and regenerating forest stock"
+    },
+    {
+      "id": "RES-003",
+      "name": "iron ore",
+      "unit": "tonne",
+      "domain": "metalwork",
+      "description": "mined ore, not instant usable steel"
+    },
+    {
+      "id": "RES-004",
+      "name": "copper ore",
+      "unit": "tonne",
+      "domain": "metalwork",
+      "description": "mine smelting input"
+    },
+    {
+      "id": "RES-005",
+      "name": "stone blocks",
+      "unit": "tonne",
+      "domain": "construction",
+      "description": "quarry production and transport"
+    },
+    {
+      "id": "RES-006",
+      "name": "fresh water",
+      "unit": "m3",
+      "domain": "survival",
+      "description": "renewable but flow and drought constrained"
+    },
+    {
+      "id": "RES-007",
+      "name": "woven cloth",
+      "unit": "bolt",
+      "domain": "craft",
+      "description": "requires fibers, production labor and trade"
+    },
+    {
+      "id": "RES-008",
+      "name": "medicinal herbs",
+      "unit": "kg",
+      "domain": "health",
+      "description": "requires planting, foraging and preparation"
+    },
+    {
+      "id": "RES-009",
+      "name": "livestock hides",
+      "unit": "hide",
+      "domain": "craft",
+      "description": "produced from legal husbandry or harmful poaching"
+    },
+    {
+      "id": "RES-010",
+      "name": "salt",
+      "unit": "kg",
+      "domain": "preservation",
+      "description": "finite stores and region-dependent access"
+    },
+    {
+      "id": "RES-011",
+      "name": "fodder",
+      "unit": "tonne",
+      "domain": "animal care",
+      "description": "growing pasture and surplus grain"
+    },
+    {
+      "id": "RES-012",
+      "name": "charcoal",
+      "unit": "tonne",
+      "domain": "energy",
+      "description": "consumes cut timber and working time"
+    }
+  ],
+  "industries": [
+    {
+      "id": "IND-001",
+      "site_entity_id": "SET-004",
+      "resource_id": "RES-001",
+      "baseline_output_quantity": 6600,
+      "period": "season",
+      "input_resource_ids": [
+        "RES-006",
+        "RES-011"
+      ],
+      "description": "grain crops",
+      "provenance": "authored_capacity_estimate",
+      "production_runtime": "not_implemented"
+    },
+    {
+      "id": "IND-002",
+      "site_entity_id": "SET-003",
+      "resource_id": "RES-007",
+      "baseline_output_quantity": 1450,
+      "period": "year",
+      "input_resource_ids": [
+        "RES-006"
+      ],
+      "description": "looms and cloth finishing",
+      "provenance": "authored_capacity_estimate",
+      "production_runtime": "not_implemented"
+    },
+    {
+      "id": "IND-003",
+      "site_entity_id": "SET-005",
+      "resource_id": "RES-005",
+      "baseline_output_quantity": 2200,
+      "period": "year",
+      "input_resource_ids": [],
+      "description": "quarry stone",
+      "provenance": "authored_capacity_estimate",
+      "production_runtime": "not_implemented"
+    },
+    {
+      "id": "IND-004",
+      "site_entity_id": "BLD-004",
+      "resource_id": "RES-003",
+      "baseline_output_quantity": 185,
+      "period": "year",
+      "input_resource_ids": [
+        "RES-012"
+      ],
+      "description": "iron processing",
+      "provenance": "authored_capacity_estimate",
+      "production_runtime": "not_implemented"
+    },
+    {
+      "id": "IND-005",
+      "site_entity_id": "SET-006",
+      "resource_id": "RES-006",
+      "baseline_output_quantity": 35000,
+      "period": "year",
+      "input_resource_ids": [],
+      "description": "water and river wells",
+      "provenance": "authored_capacity_estimate",
+      "production_runtime": "not_implemented"
+    },
+    {
+      "id": "IND-006",
+      "site_entity_id": "SET-002",
+      "resource_id": "RES-002",
+      "baseline_output_quantity": 80,
+      "period": "year",
+      "input_resource_ids": [],
+      "description": "limited managed timber harvest",
+      "provenance": "authored_capacity_estimate",
+      "production_runtime": "not_implemented"
+    },
+    {
+      "id": "IND-007",
+      "site_entity_id": "SET-001",
+      "resource_id": "RES-008",
+      "baseline_output_quantity": 420,
+      "period": "year",
+      "input_resource_ids": [
+        "RES-006"
+      ],
+      "description": "medicinal gardens",
+      "provenance": "authored_capacity_estimate",
+      "production_runtime": "not_implemented"
+    },
+    {
+      "id": "IND-008",
+      "site_entity_id": "SET-008",
+      "resource_id": "RES-007",
+      "baseline_output_quantity": 3250,
+      "period": "year",
+      "input_resource_ids": [
+        "RES-006"
+      ],
+      "description": "city textile guild",
+      "provenance": "authored_capacity_estimate",
+      "production_runtime": "not_implemented"
+    }
+  ],
+  "trade": [
+    {
+      "id": "TRD-001",
+      "from_entity_id": "SET-004",
+      "to_entity_id": "SET-008",
+      "resource_id": "RES-001",
+      "route_ids": [
+        "RTE-018"
+      ],
+      "purpose": "grain to granary",
+      "status": "customary_trade_at_snapshot",
+      "volumes": "unknown_not_simulated"
+    },
+    {
+      "id": "TRD-002",
+      "from_entity_id": "SET-005",
+      "to_entity_id": "SET-003",
+      "resource_id": "RES-005",
+      "route_ids": [
+        "RTE-023",
+        "RTE-022",
+        "RTE-018",
+        "RTE-019"
+      ],
+      "purpose": "stone via west highways; indirect and costly",
+      "status": "customary_trade_at_snapshot",
+      "volumes": "unknown_not_simulated"
+    },
+    {
+      "id": "TRD-003",
+      "from_entity_id": "SET-003",
+      "to_entity_id": "SET-001",
+      "resource_id": "RES-007",
+      "route_ids": [
+        "RTE-020"
+      ],
+      "purpose": "cloth and craft supplies",
+      "status": "customary_trade_at_snapshot",
+      "volumes": "unknown_not_simulated"
+    },
+    {
+      "id": "TRD-004",
+      "from_entity_id": "SET-006",
+      "to_entity_id": "SET-003",
+      "resource_id": "RES-006",
+      "route_ids": [
+        "RTE-021"
+      ],
+      "purpose": "fresh-water deliveries where safe",
+      "status": "customary_trade_at_snapshot",
+      "volumes": "unknown_not_simulated"
+    },
+    {
+      "id": "TRD-005",
+      "from_entity_id": "SET-001",
+      "to_entity_id": "SET-003",
+      "resource_id": "RES-008",
+      "route_ids": [
+        "RTE-020"
+      ],
+      "purpose": "herbs to urban market",
+      "status": "customary_trade_at_snapshot",
+      "volumes": "unknown_not_simulated"
+    },
+    {
+      "id": "TRD-006",
+      "from_entity_id": "SET-005",
+      "to_entity_id": "SET-008",
+      "resource_id": "RES-005",
+      "route_ids": [
+        "RTE-023",
+        "RTE-022"
+      ],
+      "purpose": "quarried stone to royal builders",
+      "status": "customary_trade_at_snapshot",
+      "volumes": "unknown_not_simulated"
+    }
+  ],
+  "cultures": [
+    {
+      "id": "CUL-001",
+      "name": "Crownlands Common",
+      "majority_species_id": "SPC-005",
+      "associated_settlement_ids": [
+        "SET-008",
+        "SET-003",
+        "SET-004"
+      ],
+      "description": "Mixed guild and land traditions; institutional influence disproportionate to physical size",
+      "note": "Cultural membership and ethnicity are not biological destiny; individuals may belong to multiple traditions."
+    },
+    {
+      "id": "CUL-002",
+      "name": "Bellward Marchfolk",
+      "majority_species_id": "SPC-005",
+      "associated_settlement_ids": [
+        "SET-010",
+        "SET-001"
+      ],
+      "description": "Frontier farming, watch duty and contested border customs",
+      "note": "Cultural membership and ethnicity are not biological destiny; individuals may belong to multiple traditions."
+    },
+    {
+      "id": "CUL-003",
+      "name": "Stonehorn Houses",
+      "majority_species_id": "SPC-003",
+      "associated_settlement_ids": [
+        "SET-002"
+      ],
+      "description": "Horns and clan memory receive strong norms of bodily autonomy",
+      "note": "Cultural membership and ethnicity are not biological destiny; individuals may belong to multiple traditions."
+    },
+    {
+      "id": "CUL-004",
+      "name": "Brackenhold Deepkin",
+      "majority_species_id": "SPC-006",
+      "associated_settlement_ids": [
+        "SET-005"
+      ],
+      "description": "Assembly politics, stonework and collective trade bargains",
+      "note": "Cultural membership and ethnicity are not biological destiny; individuals may belong to multiple traditions."
+    },
+    {
+      "id": "CUL-005",
+      "name": "Reedfen Boatfolk",
+      "majority_species_id": "SPC-007",
+      "associated_settlement_ids": [
+        "SET-006"
+      ],
+      "description": "River oaths, marsh ecology and navigational traditions",
+      "note": "Cultural membership and ethnicity are not biological destiny; individuals may belong to multiple traditions."
+    },
+    {
+      "id": "CUL-006",
+      "name": "Low Lantern Pilgrims",
+      "majority_species_id": "SPC-005",
+      "associated_settlement_ids": [
+        "SET-004",
+        "SET-008"
+      ],
+      "description": "Multi-origin religious and service community; not a human-only faith",
+      "note": "Cultural membership and ethnicity are not biological destiny; individuals may belong to multiple traditions."
+    }
+  ],
+  "faiths": [
+    {
+      "id": "FTH-001",
+      "name": "Hearthkeeper Way",
+      "center_entity_id": "BLD-005",
+      "principal_organization_id": "ORG-007",
+      "origin_event_id": "EVT-048",
+      "belief": "A kept flame is a promise of shelter and memory.",
+      "ontology": "cultural_belief_not_proven_cosmology",
+      "relationship_to_evil": "Evil is defined by broken obligations and deliberate abandonment; dissent permitted."
+    },
+    {
+      "id": "FTH-002",
+      "name": "River Witnesses",
+      "center_entity_id": "SET-006",
+      "principal_organization_id": "ORG-011",
+      "origin_event_id": "EVT-057",
+      "belief": "Water remembers the consequences of every broken oath.",
+      "ontology": "cultural_belief_not_proven_cosmology",
+      "relationship_to_evil": "The river is treated as witness, not a guaranteed moral judge."
+    },
+    {
+      "id": "FTH-003",
+      "name": "Cairnward Remembrance",
+      "center_entity_id": "LOC-008",
+      "principal_organization_id": null,
+      "origin_event_id": "EVT-020",
+      "belief": "Witnesses keep the stories of victims against deliberate erasure.",
+      "ontology": "cultural_belief_not_proven_cosmology",
+      "relationship_to_evil": "Shadow rites are condemned while the actual Veil mechanics remain only partly understood."
+    }
+  ],
+  "social_roles": [
+    {
+      "id": "SOC-001",
+      "name": "sovereign",
+      "authority_id": "POL-001",
+      "description": "Crown authority; subject to material power and political resistance",
+      "notes": "Social role is mutable and does not determine morality or ability."
+    },
+    {
+      "id": "SOC-002",
+      "name": "chartered noble",
+      "authority_id": "POL-001",
+      "description": "Hereditary and granted prestige, neither innate moral worth nor mind control",
+      "notes": "Social role is mutable and does not determine morality or ability."
+    },
+    {
+      "id": "SOC-003",
+      "name": "freeholder",
+      "authority_id": "POL-001",
+      "description": "Registered farm or workshop proprietors with fiscal obligations",
+      "notes": "Social role is mutable and does not determine morality or ability."
+    },
+    {
+      "id": "SOC-004",
+      "name": "guild member",
+      "authority_id": "ORG-001",
+      "description": "Apprentice, journeyman and master; professional progression",
+      "notes": "Social role is mutable and does not determine morality or ability."
+    },
+    {
+      "id": "SOC-005",
+      "name": "landless laborer",
+      "authority_id": "SET-001",
+      "description": "Limited property and access to political protection",
+      "notes": "Social role is mutable and does not determine morality or ability."
+    },
+    {
+      "id": "SOC-006",
+      "name": "vassal watch",
+      "authority_id": "POL-002",
+      "description": "March garrison personnel bound by contracts and oversight",
+      "notes": "Social role is mutable and does not determine morality or ability."
+    },
+    {
+      "id": "SOC-007",
+      "name": "assembly delegate",
+      "authority_id": "POL-004",
+      "description": "Non-hereditary speaker selected by civic process",
+      "notes": "Social role is mutable and does not determine morality or ability."
+    },
+    {
+      "id": "SOC-008",
+      "name": "displaced petitioner",
+      "authority_id": "ORG-003",
+      "description": "Rights contested among jurisdictions; not a subhuman caste",
+      "notes": "Social role is mutable and does not determine morality or ability."
+    }
+  ],
+  "occupations": [
+    {
+      "id": "JOB-001",
+      "name": "farmer",
+      "resource_ids": [
+        "RES-001",
+        "RES-011"
+      ],
+      "possible_sites": [
+        "SET-004",
+        "SET-001"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-002",
+      "name": "blacksmith",
+      "resource_ids": [
+        "RES-003",
+        "RES-012"
+      ],
+      "possible_sites": [
+        "BLD-004",
+        "SET-001"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-003",
+      "name": "mason",
+      "resource_ids": [
+        "RES-005"
+      ],
+      "possible_sites": [
+        "SET-005",
+        "SET-007"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-004",
+      "name": "ferryman",
+      "resource_ids": [
+        "RES-006"
+      ],
+      "possible_sites": [
+        "SET-006",
+        "SET-003"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-005",
+      "name": "merchant",
+      "resource_ids": [
+        "RES-007",
+        "RES-001"
+      ],
+      "possible_sites": [
+        "SET-003",
+        "SET-008"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-006",
+      "name": "forester",
+      "resource_ids": [
+        "RES-002",
+        "RES-008"
+      ],
+      "possible_sites": [
+        "SET-002"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-007",
+      "name": "healer",
+      "resource_ids": [
+        "RES-008",
+        "RES-006"
+      ],
+      "possible_sites": [
+        "SET-004",
+        "SET-001"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-008",
+      "name": "guard",
+      "resource_ids": [
+        "RES-001"
+      ],
+      "possible_sites": [
+        "SET-009",
+        "SET-010"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-009",
+      "name": "surveyor",
+      "resource_ids": [
+        "RES-007"
+      ],
+      "possible_sites": [
+        "ORG-006"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-010",
+      "name": "scribe",
+      "resource_ids": [
+        "RES-007"
+      ],
+      "possible_sites": [
+        "SET-008"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-011",
+      "name": "herder",
+      "resource_ids": [
+        "RES-011"
+      ],
+      "possible_sites": [
+        "SET-004",
+        "SET-001"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    },
+    {
+      "id": "JOB-012",
+      "name": "weaver",
+      "resource_ids": [
+        "RES-007"
+      ],
+      "possible_sites": [
+        "SET-003",
+        "SET-008"
+      ],
+      "mechanics": "role_blueprint_not_executed"
+    }
+  ],
+  "ecosystems": [
+    {
+      "id": "ECO-001",
+      "name": "Ashenwood food web",
+      "species_ids": [
+        "SPC-001",
+        "SPC-002",
+        "SPC-011",
+        "SPC-012"
+      ],
+      "location_ids": [
+        "LOC-005",
+        "LOC-015"
+      ],
+      "description": "Herbivores consume plants; wolves prey on vulnerable ungulates; beetles break down dead organic matter. Gloam hounds are rare anomalous predators.",
+      "simulation_status": "not_implemented"
+    },
+    {
+      "id": "ECO-002",
+      "name": "Reedfen river margins",
+      "species_ids": [
+        "SPC-010",
+        "SPC-004"
+      ],
+      "location_ids": [
+        "LOC-020",
+        "LOC-004"
+      ],
+      "description": "Fishing birds and grazers share wetlands subject to drought, overuse and seasonal flooding.",
+      "simulation_status": "not_implemented"
+    },
+    {
+      "id": "ECO-003",
+      "name": "Grainmere pastoral fields",
+      "species_ids": [
+        "SPC-004",
+        "SPC-008",
+        "SPC-009"
+      ],
+      "location_ids": [
+        "LOC-018",
+        "LOC-003"
+      ],
+      "description": "Oxen till soil; horses transport goods; goats graze and may suffer predation.",
+      "simulation_status": "not_implemented"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "TEC-001",
+      "name": "Wheeled wagons",
+      "category": "material_technology",
+      "resource_ids": [
+        "RES-002",
+        "RES-003"
+      ],
+      "limits": "Common human state logistics, not exclusive to human artisans"
+    },
+    {
+      "id": "TEC-002",
+      "name": "Blast-limited charcoal forge",
+      "category": "material_technology",
+      "resource_ids": [
+        "RES-012",
+        "RES-003"
+      ],
+      "limits": "Metal processing has heat, fuel, time and labor costs"
+    },
+    {
+      "id": "TEC-003",
+      "name": "Stone masonry",
+      "category": "material_technology",
+      "resource_ids": [
+        "RES-005"
+      ],
+      "limits": "Durability depends on foundations, weather and maintenance"
+    },
+    {
+      "id": "TEC-004",
+      "name": "Water mill",
+      "category": "material_technology",
+      "resource_ids": [
+        "RES-005",
+        "RES-002",
+        "RES-006"
+      ],
+      "limits": "Requires usable stream, grain stocks and mechanical upkeep"
+    },
+    {
+      "id": "TEC-005",
+      "name": "Writing and archives",
+      "category": "knowledge_system",
+      "resource_ids": [
+        "RES-007"
+      ],
+      "limits": "Contract records, literacy inequality, contested evidence"
+    },
+    {
+      "id": "TEC-006",
+      "name": "First Thread teaching",
+      "category": "magical_education",
+      "resource_ids": [],
+      "limits": "Subability unlocks require actual practice and source events"
+    },
+    {
+      "id": "TEC-007",
+      "name": "Navigational charts",
+      "category": "knowledge_system",
+      "resource_ids": [],
+      "limits": "Local reference frame and uncertainty; not omniscient world mapping"
+    }
+  ],
+  "world_notes": [
+    "No monetary stock, actual inventory delta, consumption, employment allocation or NPC household count is currently simulated.",
+    "Production quantities represent rough authored capacities, not audited operating results.",
+    "No territorial polygon or planetary-scale census has been established.",
+    "One sapient species can have multiple cultures and polities; no species determines an individual's moral behavior or First Thread."
+  ]
+}
