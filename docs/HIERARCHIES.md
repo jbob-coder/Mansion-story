@@ -25,3 +25,10 @@ The founding of Vael Taryn and the building of Bellward are **historical facts**
 A polity/organization/settlement/character is a registered entity with a stable ID, `core_ability_id`, `parent_id` for physical containment if any, and one or more typed `relations` for government or allegiance. Relations have `since_year`, optional `until_year`, and `status` (established, claimed, disputed). Record legal **right** and effective **control** separately when they diverge.
 
 Do not interpret a political parent as proof that roads or citizens within a territory were personally constructed by a king.
+
+## Corrupt networks and unequal laws
+`ORG-002` Gloam Chain is clandestine; Varek Sorn (`NPC-008`) leads its trafficking network, Yorren Pike (`NPC-012`) works for it, and the ruined Thornlock compound (`BLD-002`) still contains evidence. `ORG-003` Unbound Watch is an organized opposition headquartered at Hollowford. `ORG-004` Ashenwood Hunting Circle patrols forest routes while contending with ecological protections and discriminatory levy enforcement. `ORG-005` Crownspire Old Houses Council influences some highborn customs, including prejudice against Hornborn, without representing every subject of `POL-001`.
+
+`SET-002` Stonehorn Camp is a Hornborn settlement and an affected political community, not a wild-animal territory. `LAW-001` prohibits coercive pacts while `LAW-002` can be legally enforced and still produce unjust results. `LAW-004` originates from `EVT-046`, not merely the founding of the Unbound Watch.
+
+Each political power relation in `data/world/atlas.json` has its own effective year. Law records in `data/world/ethics.json` name jurisdiction, enacted event and enforcement; these are **not** automatic compulsion of any citizen.

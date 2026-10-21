@@ -31,3 +31,10 @@ A proposal to unlock needs: (1) parent core domain match, (2) prerequisite sub-a
 
 ## Example
 `NPC-005` (Tessa Flint) holds **Hearth** as the single core domain and may unlock `SUB-001` *Ember Tending* and then `SUB-002` *Forge Heat Shaping*. She cannot casually learn Stone as a second core merely because she works with metal; she must solve stone problems using tools, collaboration and techniques accessible through her existing domain.
+
+## Forbidden or dangerous branches, not evil core domains
+- `SUB-017` **Chain Oath** (Bond `ABI-006`; requires `SUB-011`): a painful, resistible, forbidden coercive tether. Choosing to use it on unwilling sapient captives is culpable harm; it grants **neither another core** nor total control of the victim's mind.
+- `SUB-018` **Witness Scar** (Echo `ABI-007`; requires `SUB-013`): extracts fragmented traumatic traces at real personal cost, with uncertainty and possible misinterpretation.
+- `SUB-019` **Thorn Shelter** (Verdance `ABI-004`; requires `SUB-007`): protective growth responsive to available seeds and nutrients; conservation is not free matter creation.
+
+The Night Archivist also follows the one-core rule: `ABI-007` Echo. A being or artifact that produces terrifying effects does not receive a second hidden domain. No branch has a built-in good/evil flag: **what a person does with an ability, to whom, and with whose consent** matters.

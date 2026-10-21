@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "world_id": "WORLD-001",
+  "scope": "Objective events and situated moral beliefs; not a numeric alignment engine.",
+  "laws": [
+    {
+      "id": "LAW-001",
+      "title": "Unbound Charter",
+      "jurisdiction_id": "POL-001",
+      "enacted_event_id": "EVT-024",
+      "enacted_year": 29860,
+      "rule": "Forbids involuntary Chain Oaths on sapient beings and protected captive beasts.",
+      "enforcement": "uneven",
+      "ethical_assessment": "protection_from_coercion"
+    },
+    {
+      "id": "LAW-002",
+      "title": "Crown Hide Levy",
+      "jurisdiction_id": "POL-001",
+      "enacted_event_id": "EVT-025",
+      "enacted_year": 29940,
+      "rule": "Tax in hides or hide-equivalent coin falls disproportionately on frontier hunting households.",
+      "enforcement": "selective",
+      "ethical_assessment": "structurally_exploitative"
+    },
+    {
+      "id": "LAW-003",
+      "title": "Sanctuary Protection",
+      "jurisdiction_id": "POL-002",
+      "enacted_event_id": "EVT-038",
+      "enacted_year": 29978,
+      "rule": "Hunting and capture prohibited within Ashenwood Sanctuary, subject to local exemptions.",
+      "enforcement": "contested",
+      "ethical_assessment": "ecological_protection"
+    },
+    {
+      "id": "LAW-004",
+      "title": "Hollowford Open Shelter",
+      "jurisdiction_id": "SET-001",
+      "enacted_event_id": "EVT-046",
+      "enacted_year": 29989,
+      "rule": "Nonviolent fugitives may request temporary shelter without surrendering ancestral identity.",
+      "enforcement": "locally_supported",
+      "ethical_assessment": "protective_but_politically_disputed"
+    }
+  ],
+  "taboos": [
+    {
+      "id": "TAB-001",
+      "name": "Forced Chain Oath",
+      "held_by": [
+        "POL-001",
+        "ORG-003"
+      ],
+      "category": "protective_prohibition",
+      "evidence_event_ids": [
+        "EVT-020",
+        "EVT-030"
+      ],
+      "ethical_status": "severe_coercive_harm",
+      "description": "Compelled sapient captivity"
+    },
+    {
+      "id": "TAB-002",
+      "name": "Disturbing beast nurseries",
+      "held_by": [
+        "ORG-004"
+      ],
+      "category": "ecological_prohibition",
+      "evidence_event_ids": [
+        "EVT-038"
+      ],
+      "ethical_status": "harmful_when_intentional",
+      "description": "Wildlife breeding-ground cruelty or capture"
+    },
+    {
+      "id": "TAB-003",
+      "name": "Sharing noble meals with Hornborn",
+      "held_by": [
+        "ORG-005"
+      ],
+      "category": "discriminatory_custom",
+      "evidence_event_ids": [
+        "EVT-036"
+      ],
+      "ethical_status": "prejudice_not_objective_wrong",
+      "description": "Some noble households stigmatize equal social contact; not a universal crown law"
+    },
+    {
+      "id": "TAB-004",
+      "name": "Uninvited horn touching",
+      "held_by": [
+        "SET-002"
+      ],
+      "category": "bodily_autonomy",
+      "evidence_event_ids": [
+        "EVT-027"
+      ],
+      "ethical_status": "violation_of_consent",
+      "description": "Hornborn cultural norm; no one may touch another person's body without consent"
+    },
+    {
+      "id": "TAB-005",
+      "name": "Binding by a beast's true name",
+      "held_by": [
+        "ORG-002"
+      ],
+      "category": "dangerous_rite",
+      "evidence_event_ids": [
+        "EVT-030"
+      ],
+      "ethical_status": "coercive_harm_if_used",
+      "description": "Criminal rite; associated supernatural claims are not automatically proven"
+    },
+    {
+      "id": "TAB-006",
+      "name": "Black-antler meat at royal festivals",
+      "held_by": [
+        "ORG-004"
+      ],
+      "category": "cultural_dietary_custom",
+      "evidence_event_ids": [
+        "EVT-037"
+      ],
+      "ethical_status": "context_dependent",
+      "description": "Sacred association of some forest devotees, not universal ethical truth"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-001",
+      "claim": "Hornborn people caused the Old Cairn Echo scar.",
+      "provenance": "rumor",
+      "truth_status": "contradicted_by_canon",
+      "holder_entity_ids": [
+        "ORG-002"
+      ],
+      "associated_event_ids": [
+        "EVT-020",
+        "EVT-036"
+      ],
+      "notes": "Earliest documented binding harm originated with Esh Vel, not a sapient species."
+    },
+    {
+      "id": "CLM-002",
+      "claim": "The Night Archivist can force any person to obey.",
+      "provenance": "rumor",
+      "truth_status": "false_as_stated",
+      "holder_entity_ids": [
+        "ORG-002"
+      ],
+      "associated_event_ids": [
+        "EVT-043",
+        "EVT-045"
+      ],
+      "notes": "Hostile Veil agency exists but cannot fully erase free choice."
+    },
+    {
+      "id": "CLM-003",
+      "claim": "All wolves in Wolfsorrow Hollow are intentionally malicious.",
+      "provenance": "rumor",
+      "truth_status": "unsupported",
+      "holder_entity_ids": [
+        "ORG-004"
+      ],
+      "associated_event_ids": [
+        "EVT-035"
+      ],
+      "notes": "Non-sapient predation is not evidence of moral criminality."
+    }
+  ],
+  "cases": [
+    {
+      "id": "CASE-001",
+      "event_id": "EVT-020",
+      "actor_ids": [
+        "NPC-007"
+      ],
+      "affected_entity_ids": [],
+      "consent": "coerced",
+      "assessment": "deliberate_abuse",
+      "physical_harm": "documented",
+      "autonomy_harm": "severe",
+      "epistemic_note": "Victim identity not yet known; do not invent an NPC ID."
+    },
+    {
+      "id": "CASE-002",
+      "event_id": "EVT-042",
+      "actor_ids": [
+        "ORG-004"
+      ],
+      "affected_entity_ids": [
+        "SPC-002"
+      ],
+      "consent": "not_applicable",
+      "assessment": "lawful_but_potentially_unjust",
+      "physical_harm": "uncertain",
+      "autonomy_harm": "uncertain",
+      "epistemic_note": "Species affected; individual incidents still unregistered."
+    },
+    {
+      "id": "CASE-003",
+      "event_id": "EVT-030",
+      "actor_ids": [
+        "NPC-008"
+      ],
+      "affected_entity_ids": [],
+      "consent": "coerced",
+      "assessment": "deliberate_abuse",
+      "physical_harm": "documented",
+      "autonomy_harm": "severe",
+      "epistemic_note": "Captive identities deliberately suppressed in the archival record."
+    },
+    {
+      "id": "CASE-004",
+      "event_id": "EVT-035",
+      "actor_ids": [
+        "NPC-010"
+      ],
+      "affected_entity_ids": [
+        "SPC-004"
+      ],
+      "consent": "not_applicable",
+      "assessment": "non_moral_predation",
+      "physical_harm": "livestock_loss",
+      "autonomy_harm": "not_applicable",
+      "epistemic_note": "Animal survival behavior; no legal or moral intent."
+    }
+  ],
+  "constraints": {
+    "species_never_implies_alignment": true,
+    "sexual_content_involving_animals": false,
+    "event_provenance": "authored_fact",
+    "no_scalar_evil_alignment": true,
+    "legal_equals_moral": false
+  }
+}
