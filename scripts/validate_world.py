@@ -22,7 +22,8 @@ def validate(a):
     places = {o["id"]: o for o in a["locations"]}
     events = {o["id"]: o for o in a["events"]}
     for obj in [a["world"], *a["layers"], *a["locations"], *a["entities"]]:
-        check(obj.get("core_ability_id") in abilities, "Invalid/missing core ability: " + obj["id"])
+        check(isinstance(obj.get("core_ability_id"), str) and obj["core_ability_id"] in abilities,
+              "Invalid/missing core ability: " + obj["id"])
     for obj in a["entities"]:
         check(obj.get("anchor_location_id") in places, "Unmapped anchor: " + obj["id"])
     for loc in a["locations"]:
