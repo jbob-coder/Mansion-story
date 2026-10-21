@@ -281,6 +281,33 @@
         "SUB-015"
       ],
       "unlock_contract": "Evidence of practice, circumstance, resources, cost, and a dated unlock event."
+    },
+    {
+      "id": "SUB-017",
+      "domain_id": "ABI-006",
+      "name": "Chain Oath",
+      "prerequisite_ids": [
+        "SUB-011"
+      ],
+      "unlock_contract": "Forbidden coercion: practiced Bond skill, living tether, substantial energy and harm; can be resisted/broken, never absolute control."
+    },
+    {
+      "id": "SUB-018",
+      "domain_id": "ABI-007",
+      "name": "Witness Scar",
+      "prerequisite_ids": [
+        "SUB-013"
+      ],
+      "unlock_contract": "Resonance Listening prerequisite, traumatic echo, fatigue and painful memory retrieval; no perfect truth detection."
+    },
+    {
+      "id": "SUB-019",
+      "domain_id": "ABI-004",
+      "name": "Thorn Shelter",
+      "prerequisite_ids": [
+        "SUB-007"
+      ],
+      "unlock_contract": "Living growth source, seed tending and material cost; ecological trade-offs remain."
     }
   ],
   "locations": [
@@ -437,6 +464,76 @@
         "precision": "authored_exact"
       },
       "core_ability_id": "ABI-001"
+    },
+    {
+      "id": "LOC-012",
+      "name": "Thornlock Market Ruins",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 64,
+        "y_km": -32,
+        "z_m": 150,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-007"
+    },
+    {
+      "id": "LOC-013",
+      "name": "Wolfsorrow Hollow",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 72,
+        "y_km": -37,
+        "z_m": 80,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-004"
+    },
+    {
+      "id": "LOC-014",
+      "name": "Chain Vault",
+      "type": "location",
+      "layer_id": "LYR-002",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 65,
+        "y_km": -34,
+        "z_m": -85,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-002"
+    },
+    {
+      "id": "LOC-015",
+      "name": "Ashenwood Sanctuary",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 55,
+        "y_km": -10,
+        "z_m": 260,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-004"
+    },
+    {
+      "id": "LOC-016",
+      "name": "Stonehorn Camp",
+      "type": "location",
+      "layer_id": "LYR-001",
+      "frame_id": "MAP-001",
+      "position": {
+        "x_km": 62,
+        "y_km": -23,
+        "z_m": 300,
+        "precision": "authored_exact"
+      },
+      "core_ability_id": "ABI-006"
     }
   ],
   "entities": [
@@ -578,6 +675,172 @@
           "event_id": "EVT-011"
         }
       ]
+    },
+    {
+      "id": "NPC-007",
+      "name": "Esh Vel",
+      "type": "person",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-008",
+      "core_ability_id": "ABI-006",
+      "born_year": 18390,
+      "died_year": 18476,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-011",
+          "event_id": "EVT-019"
+        },
+        {
+          "sub_ability_id": "SUB-017",
+          "event_id": "EVT-020"
+        }
+      ],
+      "historical_only": true
+    },
+    {
+      "id": "ENT-001",
+      "name": "The Night Archivist",
+      "type": "veiled_consciousness",
+      "layer_id": "LYR-004",
+      "anchor_location_id": null,
+      "core_ability_id": "ABI-007",
+      "manifest_year": 18424,
+      "moral_agency": "sapient_predator",
+      "intent": "stolen recollections and deliberate isolation of victims"
+    },
+    {
+      "id": "ORG-002",
+      "name": "The Gloam Chain",
+      "type": "organization",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-012",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29672,
+      "public_front": "traders and binders",
+      "clandestine": true
+    },
+    {
+      "id": "ORG-003",
+      "name": "The Unbound Watch",
+      "type": "organization",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-003",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29989
+    },
+    {
+      "id": "ORG-004",
+      "name": "Ashenwood Hunting Circle",
+      "type": "organization",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-005",
+      "core_ability_id": "ABI-005",
+      "founded_year": 29905
+    },
+    {
+      "id": "BLD-002",
+      "name": "Thornlock Pens",
+      "type": "building",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-012",
+      "core_ability_id": "ABI-002",
+      "founded_year": 29964,
+      "status": "damaged_at_snapshot"
+    },
+    {
+      "id": "SET-002",
+      "name": "Stonehorn Camp",
+      "type": "settlement",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-016",
+      "core_ability_id": "ABI-006",
+      "founded_year": 29974,
+      "status": "vulnerable_to_displacement"
+    },
+    {
+      "id": "NPC-008",
+      "name": "Varek Sorn",
+      "type": "person",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-012",
+      "core_ability_id": "ABI-006",
+      "born_year": 29938,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-011",
+          "event_id": "EVT-028"
+        },
+        {
+          "sub_ability_id": "SUB-017",
+          "event_id": "EVT-030"
+        }
+      ],
+      "intentional_harms": [
+        "EVT-030"
+      ]
+    },
+    {
+      "id": "NPC-009",
+      "name": "Rauka Stonehorn",
+      "type": "person",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-016",
+      "core_ability_id": "ABI-002",
+      "born_year": 29970,
+      "species_id": "SPC-003",
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-003",
+          "event_id": "EVT-029"
+        }
+      ]
+    },
+    {
+      "id": "NPC-010",
+      "name": "Ashmaw",
+      "type": "animal",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-013",
+      "core_ability_id": "ABI-005",
+      "born_year": 29993,
+      "species_id": "SPC-001",
+      "sapient": false,
+      "unlocks": [],
+      "role": "predator; not a moral criminal"
+    },
+    {
+      "id": "NPC-011",
+      "name": "Mereth Vale",
+      "type": "person",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-008",
+      "core_ability_id": "ABI-007",
+      "born_year": 29960,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-013",
+          "event_id": "EVT-031"
+        },
+        {
+          "sub_ability_id": "SUB-018",
+          "event_id": "EVT-040"
+        }
+      ]
+    },
+    {
+      "id": "NPC-012",
+      "name": "Yorren Pike",
+      "type": "person",
+      "layer_id": "LYR-001",
+      "anchor_location_id": "LOC-012",
+      "core_ability_id": "ABI-005",
+      "born_year": 29965,
+      "unlocks": [
+        {
+          "sub_ability_id": "SUB-009",
+          "event_id": "EVT-032"
+        }
+      ]
     }
   ],
   "routes": [
@@ -709,6 +972,118 @@
         "walking",
         "horse"
       ]
+    },
+    {
+      "id": "RTE-010",
+      "name": "Thornlock Trail",
+      "from_id": "LOC-005",
+      "to_id": "LOC-012",
+      "distance_km": 29,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-011",
+      "name": "Wolf Hollow Track",
+      "from_id": "LOC-012",
+      "to_id": "LOC-013",
+      "distance_km": 13,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-012",
+      "name": "Chain Vault Descent",
+      "from_id": "LOC-012",
+      "to_id": "LOC-014",
+      "distance_km": 3.7,
+      "kind": "shaft",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking"
+      ]
+    },
+    {
+      "id": "RTE-013",
+      "name": "Sanctuary Trail",
+      "from_id": "LOC-005",
+      "to_id": "LOC-015",
+      "distance_km": 4.2,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-014",
+      "name": "Stonehorn Trace",
+      "from_id": "LOC-005",
+      "to_id": "LOC-016",
+      "distance_km": 14.5,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-015",
+      "name": "Camp Trader Road",
+      "from_id": "LOC-016",
+      "to_id": "LOC-012",
+      "distance_km": 12,
+      "kind": "road",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse",
+        "wagon"
+      ]
+    },
+    {
+      "id": "RTE-016",
+      "name": "Bellward Camp Path",
+      "from_id": "LOC-002",
+      "to_id": "LOC-016",
+      "distance_km": 33,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
+    },
+    {
+      "id": "RTE-017",
+      "name": "Cairn Hollow Way",
+      "from_id": "LOC-008",
+      "to_id": "LOC-013",
+      "distance_km": 24,
+      "kind": "path",
+      "measurement": "authored_route_estimate",
+      "availability": "open_at_snapshot",
+      "modes": [
+        "walking",
+        "horse"
+      ]
     }
   ],
   "events": [
@@ -801,6 +1176,99 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-019",
+      "when": {
+        "year": 18412,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Esh Vel first learns Shared Labor through consensual collaborative Bond practice.",
+      "participants": [
+        "NPC-007"
+      ],
+      "location_id": "LOC-008",
+      "cause_event_ids": [
+        "EVT-004"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-011"
+    },
+    {
+      "id": "EVT-020",
+      "when": {
+        "year": 18420,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Esh Vel uses the coercive Chain Oath on an unnamed captive; an Echo scar endures.",
+      "participants": [
+        "NPC-007"
+      ],
+      "location_id": "LOC-008",
+      "cause_event_ids": [
+        "EVT-019"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-017",
+      "victim_known": false
+    },
+    {
+      "id": "EVT-043",
+      "when": {
+        "year": 18424,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "emergence",
+      "summary": "The Night Archivist emerges as a sapient predatory memory-being in the Veil.",
+      "participants": [
+        "ENT-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-020"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-044",
+      "when": {
+        "year": 19100,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "predation",
+      "summary": "The Night Archivist deliberately steals a witness memory; harm confirms moral agency.",
+      "participants": [
+        "ENT-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-043"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-021",
+      "when": {
+        "year": 24560,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "conservation",
+      "summary": "The first recorded seasonal beast refuge is established by early herder communities.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": "LOC-005",
+      "cause_event_ids": [
+        "EVT-004"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-005",
       "when": {
         "year": 26210,
@@ -815,6 +1283,24 @@
       "location_id": null,
       "cause_event_ids": [
         "EVT-004"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-022",
+      "when": {
+        "year": 28110,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "resistance",
+      "summary": "A migrating Hornborn community refuses compelled river tribute.",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": "LOC-005",
+      "cause_event_ids": [
+        "EVT-005"
       ],
       "provenance": "authored_fact"
     },
@@ -851,6 +1337,25 @@
       "location_id": "LOC-001",
       "cause_event_ids": [
         "EVT-006"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-023",
+      "when": {
+        "year": 29672,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "founding",
+      "summary": "The Gloam Chain establishes a clandestine captive-binding market.",
+      "participants": [
+        "ORG-002"
+      ],
+      "location_id": "LOC-012",
+      "cause_event_ids": [
+        "EVT-006",
+        "EVT-020"
       ],
       "provenance": "authored_fact"
     },
@@ -910,6 +1415,79 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-024",
+      "when": {
+        "year": 29860,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "legislation",
+      "summary": "Vael Taryn adopts the Unbound Charter against nonconsensual Chain Oaths.",
+      "participants": [
+        "POL-001"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-023"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-037",
+      "when": {
+        "year": 29905,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "founding",
+      "summary": "The Ashenwood Hunting Circle organizes patrols and wildlife management.",
+      "participants": [
+        "ORG-004"
+      ],
+      "location_id": "LOC-005",
+      "cause_event_ids": [
+        "EVT-022"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-025",
+      "when": {
+        "year": 29940,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "legislation",
+      "summary": "The Crown Hide Levy increases pressure on forest beasts and frontier residents.",
+      "participants": [
+        "POL-001"
+      ],
+      "location_id": "LOC-001",
+      "cause_event_ids": [
+        "EVT-024"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-028",
+      "when": {
+        "year": 29958,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Varek Sorn unlocks Shared Labor while organizing traders.",
+      "participants": [
+        "NPC-008"
+      ],
+      "location_id": "LOC-012",
+      "cause_event_ids": [
+        "EVT-023"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-011"
+    },
+    {
       "id": "EVT-015",
       "when": {
         "year": 29960,
@@ -927,6 +1505,98 @@
       ],
       "provenance": "authored_fact",
       "sub_ability_id": "SUB-009"
+    },
+    {
+      "id": "EVT-042",
+      "when": {
+        "year": 29961,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "enforcement",
+      "summary": "Patrols seize animal hides under the levy; customary law and welfare conflict.",
+      "participants": [
+        "ORG-004"
+      ],
+      "location_id": "LOC-005",
+      "cause_event_ids": [
+        "EVT-025",
+        "EVT-037"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-026",
+      "when": {
+        "year": 29964,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "construction",
+      "summary": "Thornlock Pens are built behind a trading compound.",
+      "participants": [
+        "BLD-002",
+        "ORG-002"
+      ],
+      "location_id": "LOC-012",
+      "cause_event_ids": [
+        "EVT-023"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-045",
+      "when": {
+        "year": 29970,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "veil_manifestation",
+      "summary": "The Night Archivist projects harmful memory whispers around the Old Cairn.",
+      "participants": [
+        "ENT-001"
+      ],
+      "location_id": "LOC-008",
+      "cause_event_ids": [
+        "EVT-044"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-027",
+      "when": {
+        "year": 29974,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "founding",
+      "summary": "Stonehorn Camp forms as a Hornborn refuge in the eastern forest margin.",
+      "participants": [
+        "SET-002"
+      ],
+      "location_id": "LOC-016",
+      "cause_event_ids": [
+        "EVT-025"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-038",
+      "when": {
+        "year": 29978,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "conservation",
+      "summary": "A sanctuary around Ashenwood breeding sites is formally protected.",
+      "participants": [
+        "ORG-004"
+      ],
+      "location_id": "LOC-015",
+      "cause_event_ids": [
+        "EVT-037"
+      ],
+      "provenance": "authored_fact"
     },
     {
       "id": "EVT-012",
@@ -967,6 +1637,64 @@
       "sub_ability_id": "SUB-005"
     },
     {
+      "id": "EVT-030",
+      "when": {
+        "year": 29986,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Varek Sorn uses the forbidden Chain Oath on captives hidden in Thornlock Pens.",
+      "participants": [
+        "NPC-008",
+        "BLD-002"
+      ],
+      "location_id": "LOC-012",
+      "cause_event_ids": [
+        "EVT-026",
+        "EVT-028"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-017"
+    },
+    {
+      "id": "EVT-032",
+      "when": {
+        "year": 29988,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Yorren Pike gains Trail Reading as a paid tracker; the skill is ethically neutral.",
+      "participants": [
+        "NPC-012"
+      ],
+      "location_id": "LOC-012",
+      "cause_event_ids": [
+        "EVT-026"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-009"
+    },
+    {
+      "id": "EVT-033",
+      "when": {
+        "year": 29989,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "founding",
+      "summary": "The Unbound Watch forms to find captives and document illegal coercion.",
+      "participants": [
+        "ORG-003"
+      ],
+      "location_id": "LOC-003",
+      "cause_event_ids": [
+        "EVT-030"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-009",
       "when": {
         "year": 29990,
@@ -986,23 +1714,61 @@
       "sub_ability_id": "SUB-001"
     },
     {
-      "id": "EVT-013",
+      "id": "EVT-029",
       "when": {
-        "year": 29993,
+        "year": 29990,
         "day_of_year": 1,
         "minute_of_day": 0
       },
       "kind": "ability_unlock",
-      "summary": "Ilyan unlocks Material Reading.",
+      "summary": "Rauka Stonehorn unlocks Material Reading while improving camp defenses.",
       "participants": [
-        "NPC-002"
+        "NPC-009"
       ],
-      "location_id": "LOC-002",
+      "location_id": "LOC-016",
       "cause_event_ids": [
-        "EVT-007"
+        "EVT-027"
       ],
       "provenance": "authored_fact",
       "sub_ability_id": "SUB-003"
+    },
+    {
+      "id": "EVT-031",
+      "when": {
+        "year": 29991,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Mereth Vale learns Resonance Listening while gathering witness accounts.",
+      "participants": [
+        "NPC-011"
+      ],
+      "location_id": "LOC-008",
+      "cause_event_ids": [
+        "EVT-020"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-013"
+    },
+    {
+      "id": "EVT-040",
+      "when": {
+        "year": 29992,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Mereth unlocks Witness Scar while studying traumatic echoes at the Cairn.",
+      "participants": [
+        "NPC-011"
+      ],
+      "location_id": "LOC-008",
+      "cause_event_ids": [
+        "EVT-031"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-018"
     },
     {
       "id": "EVT-011",
@@ -1024,6 +1790,84 @@
       "sub_ability_id": "SUB-009"
     },
     {
+      "id": "EVT-013",
+      "when": {
+        "year": 29993,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "ability_unlock",
+      "summary": "Ilyan unlocks Material Reading.",
+      "participants": [
+        "NPC-002"
+      ],
+      "location_id": "LOC-002",
+      "cause_event_ids": [
+        "EVT-007"
+      ],
+      "provenance": "authored_fact",
+      "sub_ability_id": "SUB-003"
+    },
+    {
+      "id": "EVT-034",
+      "when": {
+        "year": 29995,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "rescue",
+      "summary": "The Unbound Watch frees captives from the Gloam Chain network.",
+      "participants": [
+        "ORG-003",
+        "NPC-009"
+      ],
+      "location_id": "LOC-012",
+      "cause_event_ids": [
+        "EVT-033",
+        "EVT-030"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-041",
+      "when": {
+        "year": 29996,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "discovery",
+      "summary": "Rauka finds remnants of binding chains in the subterranean Chain Vault.",
+      "participants": [
+        "NPC-009"
+      ],
+      "location_id": "LOC-014",
+      "cause_event_ids": [
+        "EVT-034"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-039",
+      "when": {
+        "year": 29997,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "uprising",
+      "summary": "A revolt partly destroys Thornlock Market while clandestine trade survives.",
+      "participants": [
+        "ORG-003",
+        "ORG-002",
+        "NPC-012"
+      ],
+      "location_id": "LOC-012",
+      "cause_event_ids": [
+        "EVT-034",
+        "EVT-041"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-010",
       "when": {
         "year": 29998,
@@ -1041,6 +1885,44 @@
       ],
       "provenance": "authored_fact",
       "sub_ability_id": "SUB-002"
+    },
+    {
+      "id": "EVT-035",
+      "when": {
+        "year": 29998,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "predation",
+      "summary": "Ashmaw the wolf takes a sick goat: an ecological conflict, not a moral crime.",
+      "participants": [
+        "NPC-010"
+      ],
+      "location_id": "LOC-013",
+      "cause_event_ids": [
+        "EVT-027"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-036",
+      "when": {
+        "year": 29999,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "kind": "dispute",
+      "summary": "Bellward authorities debate recognition of Hornborn autonomy.",
+      "participants": [
+        "POL-002",
+        "ORG-003"
+      ],
+      "location_id": "LOC-002",
+      "cause_event_ids": [
+        "EVT-034",
+        "EVT-039"
+      ],
+      "provenance": "authored_fact"
     },
     {
       "id": "EVT-008",
@@ -1181,11 +2063,187 @@
       "until_year": null,
       "status": "established",
       "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-013",
+      "from_id": "NPC-008",
+      "predicate": "leads",
+      "to_id": "ORG-002",
+      "since_year": 29980,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-014",
+      "from_id": "NPC-012",
+      "predicate": "works_for",
+      "to_id": "ORG-002",
+      "since_year": 29982,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-015",
+      "from_id": "ORG-002",
+      "predicate": "opposes",
+      "to_id": "ORG-003",
+      "since_year": 29989,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-016",
+      "from_id": "NPC-009",
+      "predicate": "member_of",
+      "to_id": "SET-002",
+      "since_year": 29974,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-017",
+      "from_id": "ORG-003",
+      "predicate": "protects",
+      "to_id": "SET-002",
+      "since_year": 29989,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-018",
+      "from_id": "ORG-004",
+      "predicate": "patrols",
+      "to_id": "LOC-005",
+      "since_year": 29905,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-019",
+      "from_id": "NPC-011",
+      "predicate": "investigates",
+      "to_id": "ORG-002",
+      "since_year": 29990,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-020",
+      "from_id": "ENT-001",
+      "predicate": "manifests_near",
+      "to_id": "LOC-008",
+      "since_year": 29970,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-021",
+      "from_id": "BLD-002",
+      "predicate": "located_at",
+      "to_id": "LOC-012",
+      "since_year": 29964,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-022",
+      "from_id": "ORG-002",
+      "predicate": "operates",
+      "to_id": "BLD-002",
+      "since_year": 29964,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-023",
+      "from_id": "SET-002",
+      "predicate": "situated_at",
+      "to_id": "LOC-016",
+      "since_year": 29974,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-024",
+      "from_id": "NPC-010",
+      "predicate": "ranges_in",
+      "to_id": "LOC-013",
+      "since_year": 29993,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "REL-025",
+      "from_id": "ORG-003",
+      "predicate": "opposes",
+      "to_id": "ORG-002",
+      "since_year": 29989,
+      "until_year": null,
+      "status": "established",
+      "provenance": "authored_fact"
     }
   ],
   "limitations": [
     "Historical events are authored, not observed simulation.",
     "Uncharted geography remains unknown.",
-    "Cross-dimensional distances are not measured."
+    "Cross-dimensional distances are not measured.",
+    "Evil, taboos, historical rescue and atrocities are authored history, not output from running NPC decisions.",
+    "Veil consciousness ENT-001 has no surface coordinates; manifestation at a site is not physical co-location.",
+    "Laws and taboos are culture-dependent records; legal status and moral justification differ."
+  ],
+  "species": [
+    {
+      "id": "SPC-001",
+      "name": "Dusk wolf",
+      "sapient": false,
+      "core_ability_id": "ABI-005",
+      "classification": "non-sapient predator",
+      "habitats": [
+        "LOC-013"
+      ]
+    },
+    {
+      "id": "SPC-002",
+      "name": "Black-antler stag",
+      "sapient": false,
+      "core_ability_id": "ABI-004",
+      "classification": "non-sapient woodland herbivore",
+      "habitats": [
+        "LOC-005",
+        "LOC-015"
+      ]
+    },
+    {
+      "id": "SPC-003",
+      "name": "Hornborn",
+      "sapient": true,
+      "core_ability_id": "ABI-006",
+      "classification": "sapient beastfolk; equal personhood",
+      "habitats": [
+        "LOC-016"
+      ]
+    },
+    {
+      "id": "SPC-004",
+      "name": "Domestic goat",
+      "sapient": false,
+      "core_ability_id": "ABI-004",
+      "classification": "domesticated livestock",
+      "habitats": [
+        "LOC-003"
+      ]
+    }
   ]
 }
