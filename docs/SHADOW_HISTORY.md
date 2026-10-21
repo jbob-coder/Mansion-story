@@ -9,6 +9,7 @@ All events below are **authored retrospective world history**. Times in the data
 | 18,424 | `EVT-043`: the Night Archivist wakes within the Veil | An independently choosing predatory memory-being now exists |
 | 24,560 | `EVT-021`: seasonal beast refuges are recorded | Conservation and husbandry arise alongside hunting |
 | 28,110 | `EVT-022`: a migrating Hornborn band resists a forced river tribute | Later accounts disagree about ownership and legitimacy |
+| 29,570 | `EVT-047`: Crownspire noble houses form an inter-house council | A separate aristocratic interest group gains influence, and some discriminatory customs persist |
 | 29,672 | `EVT-023`: Gloam Chain founds a covert trading network | Coercive oaths turn into a market |
 | 29,860 | `EVT-024`: Unbound Charter prohibits captive Chain Oaths | Law recognizes personhood but enforcement is uneven |
 | 29,905 | `EVT-037`: Ashenwood Hunting Circle organized | Patrols defend communities but also influence restrictions |
@@ -20,7 +21,8 @@ All events below are **authored retrospective world history**. Times in the data
 | 29,978 | `EVT-038`: Ashenwood Sanctuary protected | Conservation conflicts with levy collection |
 | 29,986 | `EVT-030`: Varek uses a coercive Chain Oath | Evidence of intentional wrong action |
 | 29,988 | `EVT-032`: Yorren learns Trail Reading | Neutral tracking skill becomes available for harmful purposes |
-| 29,989 | `EVT-033`: the Unbound Watch forms | Organized resistance to captivity begins |
+| 29,989 / Day 1 | `EVT-033`: the Unbound Watch forms | Organized resistance to captivity begins |
+| 29,989 / Day 2 | `EVT-046`: Hollowford enacts a temporary shelter ordinance | Refugees gain local protections while crown authority is contested |
 | 29,990 | `EVT-029`: Rauka learns Material Reading | Agency and practical skill expand |
 | 29,991 | `EVT-031`: Mereth learns Resonance Listening | Hidden testimony becomes more recoverable |
 | 29,992 | `EVT-040`: Mereth manifests Witness Scar | Echo-traces expose harm but impose pain and fatigue |
