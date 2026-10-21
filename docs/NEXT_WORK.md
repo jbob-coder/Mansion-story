@@ -32,3 +32,13 @@ Each new era and region should have three levels of evidence: underlying rules; 
 - Added `scripts/validate_ethics.py` and regression tests for timeline, route geometry, one-core inheritance, personhood, criminal responsibility and provenance.
 
 **Outstanding:** an autonomous morality engine is not yet implemented. Data-driven welfare, predators, social memory, coercive pact resistance, illegal trade, investigations, consequences, and institutional change require executable world-state engines with event logs. Do not report an authored kidnapping or rescue as if it were simulated.
+
+## Human Dominion and full system inventory — documented phase
+- Record humans as the current dominant sapient civilization **only in the known inhabited world**; add human history from early cultural expansion to the First Crowns.
+- Survey 10 settlement service areas with 80,850 authored inhabitants, of whom 64,520 are humans; keep the estimates separate from unobserved state.
+- Expand site coordinates, species, named persons, towns, paths and dated founding events.
+- Add material economy, ecology, culture, religion, roles and occupations as structured data, not fake functioning NPCs.
+- Establish `data/world/system_catalog.json` with 68 pending systems across nine categories. Read `docs/COMPLETE_WORLD_INVENTORY.md`.
+- Add `scripts/validate_civilization.py` and tests for population arithmetic, single ability, route connectivity, ecology, ethics and provenance.
+
+**NEXT REQUIRED ENGINE MILESTONE:** a versioned world-state journal with deterministic simulation tick and material transactions. Until that exists, farming, reproduction, caravans, trade, autonomous citizens, buildings and war remain planning data.
