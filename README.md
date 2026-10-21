@@ -30,3 +30,9 @@ The creator establishes conditions, not a compulsory script for sentient beings.
 `data/world/atlas.json` is the structured initial world registry. `scripts/validate_world.py` validates IDs, references, dates, ability ownership, coordinates and routes with Python's standard library.
 
 **Scope boundary:** This is an authored seed and world history, **not** an executing NPC simulation or complete planetary atlas. Coordinates within the charted region are fictional internal survey coordinates. A documented historical event does not imply the simulation was run.
+
+## Permanent Character Memory (standalone component)
+
+Every one of the **24 registered characters** has an individually authored intelligence stat in [Cognition Profiles](data/world/character_cognition.json). The reusable [SQLite memory engine](engine/character_memory.py) saves each actor's observed or learned experiences and preserves false beliefs, corrections, and historical states across program restarts. Intelligence affects accessible recall, not permanent archival capacity. See [Character Memory](docs/CHARACTER_MEMORY.md).
+
+Check the seed with `python scripts/bootstrap_character_memory.py --validate`, create a local save with `python scripts/bootstrap_character_memory.py --db saves/campaign_01/memory.sqlite`, and run tests with `python -m unittest discover -s tests -v`. Save files are ignored by Git. **This is working memory persistence, not yet a live NPC mind or gameplay simulation.**
