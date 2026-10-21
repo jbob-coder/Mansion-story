@@ -16,6 +16,10 @@ The creator establishes conditions, not a compulsory script for sentient beings.
 7. [Canon and Continuity](docs/CANON_AND_CONTINUITY.md) — IDs, claims, revisions and event history.
 8. [Start Here](docs/START_HERE.md) — repository layout, current state and expansion workflow.
 9. [Next Work](docs/NEXT_WORK.md) — explicit unimplemented systems.
+10. [Shadows and Evil](docs/SHADOWS_AND_EVIL.md) — confirmed wrongdoing, a malignant Veil intelligence, factions and resistance.
+11. [Beasts, Beastfolk and Taboos](docs/BEASTS_BEASTFOLK_AND_TABOOS.md) — personhood, creature ecology, discriminatory customs and forbidden practices.
+12. [Shadow History](docs/SHADOW_HISTORY.md) — dated harm, resistance, law and political consequences.
+13. [Moral Causality](docs/MORAL_CAUSAL_MODEL.md) — design contract for a future unscripted ethical/social simulation.
 
 ## Data
 `data/world/atlas.json` is the structured initial world registry. `scripts/validate_world.py` validates IDs, references, dates, ability ownership, coordinates and routes with Python's standard library.
