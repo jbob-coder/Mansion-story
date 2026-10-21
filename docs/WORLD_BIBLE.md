@@ -23,3 +23,8 @@ The initial local atlas includes Crownspire (royal seat), Bellward Manor (march 
 
 ## Open truths (do not invent answers silently)
 The number and extent of other continents, the topology of the world beyond the initial mapped window, the identities of any additional gods, the origin of Veil crossings and all uncharted nations remain unresolved. An NPC's faith must not be used to invent a cosmological certainty.
+
+## Real darkness and the disputed moral world
+The Night Archivist (`ENT-001`) is a **real, sapient and deliberately hostile** memory-being in the Veil. It is not proven to be a creator-deity or the origin of all cruelty. Esh Vel's forced oath is the earliest recorded atrocity of its particular kind, not the first evil act in eternity. Distinguish intelligent malice from natural predation; sapient Hornborn are people, not wildlife or a predestined evil race.
+
+The Gloam Chain (`ORG-002`) profits from coercive captivity. The Crownspire Old Houses Council (`ORG-005`) propagates some discriminatory etiquette; the prejudice is attributed to that faction rather than every citizen or the crown itself. The Unbound Watch (`ORG-003`) opposes capture networks without a guaranteed victory. For complete moral and creature canon see [Shadows and Evil](SHADOWS_AND_EVIL.md) and [Beasts, Beastfolk and Taboos](BEASTS_BEASTFOLK_AND_TABOOS.md).
