@@ -1951,6 +1951,24 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-070",
+      "when": {
+        "year": 17120,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Early human settlements share durable tools, stories and mobile food networks.",
+      "kind": "cultural_emergence",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-004"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-019",
       "when": {
         "year": 18412,
@@ -2026,6 +2044,24 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-071",
+      "when": {
+        "year": 21500,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Human communities spread across temperate valleys through migration and multi-village kinship.",
+      "kind": "migration",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-070"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-021",
       "when": {
         "year": 24560,
@@ -2062,6 +2098,25 @@
       "provenance": "authored_fact"
     },
     {
+      "id": "EVT-072",
+      "when": {
+        "year": 27400,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Cultivation, animal care, storage and river transport expand across human-majority settlements.",
+      "kind": "agricultural_expansion",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-005",
+        "EVT-071"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
       "id": "EVT-022",
       "when": {
         "year": 28110,
@@ -2076,6 +2131,42 @@
       "location_id": "LOC-005",
       "cause_event_ids": [
         "EVT-005"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-073",
+      "when": {
+        "year": 28700,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "Early human-led river trade compacts finance bridges, seed stores and defended market roads.",
+      "kind": "political_consolidation",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-072"
+      ],
+      "provenance": "authored_fact"
+    },
+    {
+      "id": "EVT-074",
+      "when": {
+        "year": 28900,
+        "day_of_year": 1,
+        "minute_of_day": 0
+      },
+      "summary": "The first comparative guild records show humans holding the greatest settled infrastructure in the documented heartlands.",
+      "kind": "census_estimate",
+      "participants": [
+        "WORLD-001"
+      ],
+      "location_id": null,
+      "cause_event_ids": [
+        "EVT-073"
       ],
       "provenance": "authored_fact"
     },
