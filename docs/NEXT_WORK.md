@@ -42,3 +42,11 @@ Each new era and region should have three levels of evidence: underlying rules; 
 - Add `scripts/validate_civilization.py` and tests for population arithmetic, single ability, route connectivity, ecology, ethics and provenance.
 
 **NEXT REQUIRED ENGINE MILESTONE:** a versioned world-state journal with deterministic simulation tick and material transactions. Until that exists, farming, reproduction, caravans, trade, autonomous citizens, buildings and war remain planning data.
+
+## Implemented subcomponent: intelligence-dependent permanent memory
+
+- Built `engine/character_memory.py` as a reusable SQLite durable-archive and retrieval library with per-character actor scoping, corrections, rehearsal and backup.
+- Assigned individual intelligence values to all 24 currently registered characters in `data/world/character_cognition.json`. Runtime character registration supports future NPC IDs.
+- Added bootstrap and regression tests; can preserve subjective records even when characters forget, die, or revise knowledge.
+- **Still blocked:** actual event-sourced world tick, perception pipeline, NPC intent selection, rumor spread, dialogue, inter-NPC communication and synchronized save-state. Those must be connected before calling NPCs autonomous or alive.
+- Canonical profile edits do not override intelligence changes already stored in a running campaign's save.
