@@ -303,6 +303,20 @@
       "unit": "tonne",
       "domain": "energy",
       "description": "consumes cut timber and working time"
+    },
+    {
+      "id": "RES-013",
+      "name": "forged iron",
+      "unit": "tonne",
+      "domain": "metalwork",
+      "description": "Finished ferrous products after fuel, ore and labor expenditures"
+    },
+    {
+      "id": "RES-014",
+      "name": "plant fiber",
+      "unit": "tonne",
+      "domain": "craft",
+      "description": "Flax-like field fiber requiring harvest, retting and processing"
     }
   ],
   "industries": [
@@ -313,8 +327,7 @@
       "baseline_output_quantity": 6600,
       "period": "season",
       "input_resource_ids": [
-        "RES-006",
-        "RES-011"
+        "RES-006"
       ],
       "description": "grain crops",
       "provenance": "authored_capacity_estimate",
@@ -327,6 +340,7 @@
       "baseline_output_quantity": 1450,
       "period": "year",
       "input_resource_ids": [
+        "RES-014",
         "RES-006"
       ],
       "description": "looms and cloth finishing",
@@ -347,13 +361,14 @@
     {
       "id": "IND-004",
       "site_entity_id": "BLD-004",
-      "resource_id": "RES-003",
+      "resource_id": "RES-013",
       "baseline_output_quantity": 185,
       "period": "year",
       "input_resource_ids": [
+        "RES-003",
         "RES-012"
       ],
-      "description": "iron processing",
+      "description": "iron processing with ore and charcoal",
       "provenance": "authored_capacity_estimate",
       "production_runtime": "not_implemented"
     },
@@ -399,6 +414,7 @@
       "baseline_output_quantity": 3250,
       "period": "year",
       "input_resource_ids": [
+        "RES-014",
         "RES-006"
       ],
       "description": "city textile guild",
