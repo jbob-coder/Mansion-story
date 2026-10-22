@@ -6,6 +6,10 @@ Creation begins at **year 0**, not at a castle or a quest. The creator establish
 
 The creator establishes conditions, not a compulsory script for sentient beings. A world's history is a ledger of things that happened, not chapters the population must obey.
 
+## Project separation
+
+Mansion Story is the **public canon/worldbuilding archive**, not the Eirenfall: Unbound game engine. Eirenfall is a separately maintained **private**, playable game prototype drawing on selected setting concepts; its runtime, saves, version numbers and content are not automatically synchronized with this repository. **Do not put private game source or builds here.** See [Project Boundaries](docs/PROJECT_BOUNDARIES.md) before work that could affect both projects.
+
 ## Reading order
 1. [The First Dawn](docs/THE_FIRST_DAWN.md) — genesis, the creator's limits, and emergence of reality.
 2. [World Bible](docs/WORLD_BIBLE.md) — themes, realms and what is and is not established.
